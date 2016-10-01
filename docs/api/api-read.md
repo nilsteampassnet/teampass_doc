@@ -6,6 +6,10 @@ The call is performed with a `GET` query and sends back the data at `json` forma
 
 This page describes how to read data.
 
+!!! note "Note:"
+    In this page, `<valid api key>` is the API key you received from your administrator.
+
+
 # Read one Folder
 
 Reading the content of a Folder is performed by accessing the URL
@@ -17,7 +21,6 @@ Reading the content of a Folder is performed by accessing the URL
 With
 
 * `<folder id>` is the folder ID
-* `<valid api key>` is the API key you received from your administrator
 
 The answer would be
 
