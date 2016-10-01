@@ -9,7 +9,7 @@ The call is performed with a `GET` query and sends back the data at `json` forma
 ## Read one Folder
 
 Reading the content of a Folder is performed by accessing the URL
-
+!!! note "Note:"
 	<url to teampass>/api/index.php/read/category/<folder id>?apikey=<valid api key>
     
 With
