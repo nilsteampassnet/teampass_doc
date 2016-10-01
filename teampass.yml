@@ -1,8 +1,7 @@
 pages:
 - Home: 'index.md'
 - API:
-    - 'Reading items': 'api/writing-your-docs.md'
-    - 'Writing items': 'user-guide/styling-your-docs.md'
-- About:
-    - 'License': 'about/license.md'
-    - 'Release Notes': 'about/release-notes.md'
+    - 'Reading items': 'api/api-read.md'
+    - 'Writing items': 'api/api-write.md'
+- Teampass-Connect:
+    - 'Usage': 'tpc/index.md'
