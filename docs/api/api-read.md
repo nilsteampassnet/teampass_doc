@@ -6,7 +6,6 @@ The call is performed with a `GET` query and sends back the data at `json` forma
 
 This page describes how to read data.
 
-!!! note "Note:"
     In this page, `<valid api key>` is the API key you received from your administrator.
 
 
