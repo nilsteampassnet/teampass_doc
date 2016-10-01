@@ -13,10 +13,10 @@ This page describes how to write data.
 Adding a new Item is done through URL:
 
 ```yaml
-<url to teampass>/api/index.php/add/item/<label>,<password>,<description>,<folder id>,<login>,<email>,<url>,<tags>,<any one can modify>?apikey=<valid api key>
+<url to teampass>/api/index.php/add/item/<label>;<password>;<description>;<folder id>;<login>;<email>;<url>;<tags>;<any one can modify>?apikey=<valid api key>
 ```
 
-The separator symbol is the comma ` , `.
+The separator symbol is the semi-column ` ; `.
 
 *Some limitations*:
 
@@ -25,6 +25,30 @@ The separator symbol is the comma ` , `.
 * `any one can modify` is a boolean and accepts value `1` for `TRUE` and value `0` for `FALSE`.
 
 Notice that if a similar Label exists, the add request will fail.
+
+# Delete an Item
+
+Deleting an Item is done through URL:
+
+```yaml
+<url to teampass>/api/index.php/delete/item/<item_id1>;<item_id2>?apikey=<valid api key>
+```
+
+The separator symbol is the semi-column ` ; `.
+
+The answer would be `OK` if succeeded or the error if failed.
+
+# Delete a Folder
+
+Deleting a Folder is done through URL:
+
+```yaml
+<url to teampass>/api/index.php/delete/folder/<folder_id1>;<folder_id2>?apikey=<valid api key>
+```
+
+The separator symbol is the semi-column ` ; `.
+
+The answer would be `OK` if succeeded or the error if failed.
 
 # Add new User
 
