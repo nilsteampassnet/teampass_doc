@@ -29,7 +29,6 @@ Follow next steps to ensure every settings are correct in this file.
 
 It defines the path to the secured folder you have indicated during installation.
 
-!!! Note
 
 	Be careful to not add an end slash.
 	
@@ -48,7 +47,6 @@ It defines the path to the secured folder you have indicated during installation
 
 It loads the sk.php file when using Teampass.
 
-!!! Note
 
     It is mandatory to indicate here the correct path to `sk.php` file.
 
