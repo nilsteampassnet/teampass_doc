@@ -4,7 +4,8 @@ Easiest way to install Teampass is to install LAMP dedicated to the Linux distri
 
 # Install PHP extensions
 
-Ensure to install the expected extensions required by Teampass. 
+Ensure to install the expected extensions required by Teampass:
+
 * `mcrypt`
 * `mbstring`
 * `openssl`
