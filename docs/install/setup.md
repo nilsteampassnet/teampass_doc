@@ -1,4 +1,4 @@
-# Teampas-Connect
+# Setup
 
 Documentation for Teampass-Connect.
 

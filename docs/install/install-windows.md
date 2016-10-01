@@ -1,4 +1,4 @@
-# Teampas-Connect
+# Wibdows
 
 Documentation for Teampass-Connect.
 
