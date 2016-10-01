@@ -4,21 +4,25 @@ The Teampass API permits an access to Teampass Items from a third party applicat
 
 The call is performed with a `GET` query and sends back the data at `json` format.
 
-# Read data
+This page describes how to read data.
 
-## Read one Folder
+# Read one Folder
 
 Reading the content of a Folder is performed by accessing the URL
-!!! note "Note:"
-	<url to teampass>/api/index.php/read/category/<folder id>?apikey=<valid api key>
+
+```yaml
+<url to teampass>/api/index.php/read/category/<folder id>?apikey=<valid api key>
+```
     
 With
-* <folder id> is the folder ID
-* <valid api key> is the API key you received from your administrator
+
+* `<folder id>` is the folder ID
+* `<valid api key>` is the API key you received from your administrator
 
 The answer would be
 
-`{
+```yaml
+{
 	"1":{
 		"label":"I1",
 		"login":"",
@@ -31,7 +35,8 @@ The answer would be
 		"pw":"nid6YA$B",
 		"url":"http://teampass.net"
 	}
-}`
+}
+```
 
 ## Read several Folder
 
