@@ -28,7 +28,7 @@ The answer would be
 	"1":{
 		"label":"I1",
 		"login":"",
-		"pw":"&XZcww1`",
+		"pw":"&XZcww1",
 		"url":"http://teampass.net"
 	},
 	"2":{
