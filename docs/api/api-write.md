@@ -49,16 +49,3 @@ Deleting a Folder is done through URL:
 The separator symbol is the semi-column ` ; `.
 
 The answer would be `OK` if succeeded or the error if failed.
-
-# Add new User
-
-Adding a new User is done through URL:
-
-```yaml
-<url to teampass>/api/index.php/add/user/<LOGIN>;<NAME>;<LASTNAME>;<PASSWORD>;<EMAIL>;<ADMINISTRATEDBY>;<READ_ONLY>;<ROLE1,ROLE2,...>;<IS_ADMIN>;<ISMANAGER>;<PERSONAL_FOLDER>?apikey=<VALID API KEY>
-```
-The separator symbol is the comma ` ; `.
-
-*Some limitations*:
-
-* `ADMINISTRATEDBY`, `READ_ONLY`, `IS_ADMIN`, `ISMANAGER`, `PERSONAL_FOLDER` are boolean and accept value `1` for `TRUE` and value `0` for `FALSE`.
