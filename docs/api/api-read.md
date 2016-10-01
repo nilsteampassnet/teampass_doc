@@ -92,3 +92,12 @@ The separator symbol is the comma ` , `.
 
 Notice that if a similar Label exists, the add request will fail.
 
+# Read user's items
+
+To get all the items a user is allowed to access, use URL
+
+```yaml
+<url to teampass>/api/index.php/read/userpw/<user's login>?apikey=<valid api key>
+```
+
+The answer would be exactly the same as in the previous example.
