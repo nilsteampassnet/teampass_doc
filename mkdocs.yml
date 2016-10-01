@@ -1,6 +1,11 @@
 site_name: Teampass
 pages:
 - Home: 'index.md'
+- Installation:
+    - 'On Linux server': 'install/install-linux.md'
+    - 'On Windows server': 'install/install-windows.md'
+    - 'Initial setup': 'install/setup.md'
+    - 'Upgrade': 'install/upgrade.md'
 - API:
     - 'Reading items': 'api/api-read.md'
     - 'Writing items': 'api/api-write.md'
