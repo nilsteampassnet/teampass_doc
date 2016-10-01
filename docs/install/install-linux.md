@@ -64,10 +64,6 @@ Now it's time to set some privileges to this user.
 
 # Install TeamPass
 
-Using your Browser, go to `http://localhost/teampass` or your specific domain, and follow the several steps (here bellow the 3 first steps)
-
-* ![Example image]({{ site.baseurl }}/assets/images/20-11-2011-17-47-34.png)
-* ![Example image]({{ site.baseurl }}/assets/images/20-11-2011-17-50-10.png)
-* ![Example image]({{ site.baseurl }}/assets/images/20-11-2011-17-50-35.png)
+Using your Browser, go to `http://localhost/teampass` or your specific domain, and follow the several steps 
 
 Once installation is finished, you can use TeamPass on your Linux server.
