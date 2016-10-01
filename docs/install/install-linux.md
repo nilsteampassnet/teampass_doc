@@ -52,16 +52,18 @@ Now it's time to set some privileges to this user.
 
 * Open your terminal
 * Point to htdocs folder `cd /opt/lampp/htdcos)`
-* Enter command 
-	* `chmod -R 777 teampass/includes/config`
-	* `chmod -R 777 teampass/includes/avatars`
-	* `chmod -R 777 teampass/includes/libraries/csrfp/libs`
-	* `chmod -R 777 teampass/includes/libraries/csrfp/log`
-	* `chmod -R 777 teampass/includes/libraries/csrfp/js`
-	* `chmod -R 777 teampass/backups`
-	* `chmod -R 777 teampass/files`
-	* `chmod -R 777 teampass/install`
-	* `chmod -R 777 teampass/upload`
+* Enter commands
+```
+chmod -R 777 teampass/includes/config
+chmod -R 777 teampass/includes/avatars
+chmod -R 777 teampass/includes/libraries/csrfp/libs
+chmod -R 777 teampass/includes/libraries/csrfp/log
+chmod -R 777 teampass/includes/libraries/csrfp/js
+chmod -R 777 teampass/backups
+chmod -R 777 teampass/files
+chmod -R 777 teampass/install
+chmod -R 777 teampass/upload
+```
 
 # Install TeamPass
 
