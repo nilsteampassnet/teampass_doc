@@ -1,3 +1,4 @@
+site_name: Teampass
 pages:
 - Home: 'index.md'
 - API:
@@ -5,3 +6,4 @@ pages:
     - 'Writing items': 'api/api-write.md'
 - Teampass-Connect:
     - 'Usage': 'tpc/index.md'
+- FAQ: 'faq.md'
