@@ -1,18 +1,12 @@
-# Teampass API
-
-Documentation for Teampass API.
-
----
-
-## Overview
+# Overview
 
 The Teampass API permits an access to Teampass Items from a third party application.
 
 The call is performed with a `GET` query and sends back the data at `json` format.
 
-## Read data
+# Read data
 
-### Read one Folder
+## Read one Folder
 
 Reading the content of a Folder is performed by accessing the URL
 
