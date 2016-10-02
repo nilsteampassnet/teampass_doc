@@ -13,7 +13,7 @@ Teampasshas to be installed on a server, and you require the `admin` account.
 The first step is to create Folders in which the Items will be added.
 Those folders have to be organized in a logical way that fits your needs.
 
-Refer to page [Manage Folders](../manage/mng-fld.md).
+Refer to page [Manage Folders](../manage/manage-folders.md).
 
 # Create Groups
 
@@ -22,7 +22,7 @@ The second step consists in two activities:
 * create Groups in which your Users will be added
 * set the access rights of Groups versus Folders
 
-Refer to page [Manage Groups](../manage/mng-grp.md).
+Refer to page [Manage Groups](../manage/manage-groups.md).
 
 # Create Users
 
@@ -30,7 +30,7 @@ The third step consists in creating Users that will use Teampass.
 
 You need to think about a global strategy relating the Folders, Groups and Users level.
 
-Refer to page [Manage Users](../manage/mng-usr.md).
+Refer to page [Manage Users](../manage/manage-users.md).
 
 # Administrator account
 
