@@ -1,9 +1,9 @@
-# Teampass
+# Teampass Documentation
 
-Documentation for Teampass.
+Welcome to the Documentation for the usage of [Teampass](http://teampass.net).
 
 ---
 
-## Overview
+# Overview
 
-Teampass is a Collaborative Passwords Manager. It permits to organize the passwords items into a structured way of folders associated to access rights given to dedicated users and groups. 
+Teampass is a Collaborative Passwords Manager. It permits to organize the passwords items into a structured way of folders associated to access rights given to dedicated users and groups.
