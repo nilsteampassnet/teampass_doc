@@ -4,6 +4,7 @@ copyright: '2016 (c) Nils Laumaillé - Teampass.net'
 theme: slate
 pages:
 - Home: 'index.md'
+- Definitions: 'definition.md'
 - Installation:
     - 'On Linux server': 'install/install-linux.md'
     - 'On Windows server': 'install/install-windows.md'
