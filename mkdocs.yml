@@ -1,4 +1,7 @@
 site_name: Teampass
+site_author: Nils Laumaillé
+copyright: '2016 (c) Nils Laumaillé - Teampass.net'
+theme: slate
 pages:
 - Home: 'index.md'
 - Installation:
@@ -6,6 +9,10 @@ pages:
     - 'On Windows server': 'install/install-windows.md'
     - 'Initial setup': 'install/setup.md'
     - 'Upgrade': 'install/upgrade.md'
+- Manage:
+    - 'Folders': 'api/manage-folders.md'
+    - 'Groups': 'api/manage-groups.md'
+    - 'Users': 'api/manage-users.md'
 - API:
     - 'Reading items': 'api/api-read.md'
     - 'Writing items': 'api/api-write.md'

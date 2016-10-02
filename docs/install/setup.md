@@ -34,7 +34,7 @@ Refer to page [Manage Users](../manage/mng-usr.md).
 
 # Administrator account
 
-> Remember that an Administrator has no access to Items.
+	Remember that an Administrator has no access to Items.
 
 In order to test your set-up, it is recommended to create a dummy account user which you will use to test your Teampass configuration.
 
