@@ -10,7 +10,7 @@ pages:
     - 'Authentication': 'features/feat-2FA.md'
     - 'Custom fields': 'features/feat-custf.md'
     - 'Suggestion': 'features/feat-sug.md'
-    - 'Offline mode': 'features/feat-items.md'
+    - 'Offline mode': 'features/feat-offline.md'
     - 'Encryption': 'features/feat-encrypt.md'
     - 'Import & Export': 'features/feat-impexp.md'
     - 'Remote server': 'features/feat-remote.md'
