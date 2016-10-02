@@ -14,11 +14,11 @@ Access to the `Folders Management` page.
 
 Click the icon `Add a Folder`
 
-![Screenshot](img/mng-fld-2.png)
+![Screenshot](../img/mng-fld-2.png)
 
 And fill in the form
 
-![Screenshot](img/mng-fld-5.png)
+![Screenshot](../img/mng-fld-5.png)
 
 About the expected fields:
 
@@ -31,15 +31,15 @@ About the expected fields:
 
 The new Folder created is now in the list.
 
-![Screenshot](img/mng-fld-6.png)
+![Screenshot](../img/mng-fld-6.png)
 
 # Edit a Folder
 
 You can at any moment edit a folder. Click the folder you want to edit and the edition dialog-box will be shown.
 
-![Screenshot](img/mng-fld-7.png)
+![Screenshot](../img/mng-fld-7.png)
 
-![Screenshot](img/mng-fld-8.png)
+![Screenshot](../img/mng-fld-8.png)
 
 # Delete a Folder
 
@@ -47,7 +47,7 @@ Deleting a Folder is done by
 * selecting the Folder(s)
 * and clicking the `Delete icon`.
 
-![Screenshot](img/mng-fld-9.png)
+![Screenshot](../img/mng-fld-9.png)
 
 If you confirm the deletion, then all Items inside this Folder will also be deleted.
 
