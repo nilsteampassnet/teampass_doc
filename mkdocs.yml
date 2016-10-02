@@ -5,6 +5,15 @@ theme: slate
 pages:
 - Home: 'index.md'
 - Definitions: 'definition.md'
+- Features:
+    - 'Items': 'features/feat-items.md'
+    - 'Authentication': 'features/feat-2FA.md'
+    - 'Custom fields': 'features/feat-custf.md'
+    - 'Suggestion': 'features/feat-sug.md'
+    - 'Offline mode': 'features/feat-items.md'
+    - 'Encryption': 'features/feat-encrypt.md'
+    - 'Import & Export': 'features/feat-impexp.md'
+    - 'Remote server': 'features/feat-remote.md'
 - Installation:
     - 'On Linux server': 'install/install-linux.md'
     - 'On Windows server': 'install/install-windows.md'
