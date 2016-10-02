@@ -10,9 +10,9 @@ pages:
     - 'Initial setup': 'install/setup.md'
     - 'Upgrade': 'install/upgrade.md'
 - Manage:
-    - 'Folders': 'api/manage-folders.md'
-    - 'Groups': 'api/manage-groups.md'
-    - 'Users': 'api/manage-users.md'
+    - 'Folders': 'manage/manage-folders.md'
+    - 'Groups': 'manage/manage-groups.md'
+    - 'Users': 'manage/manage-users.md'
 - API:
     - 'Reading items': 'api/api-read.md'
     - 'Writing items': 'api/api-write.md'
