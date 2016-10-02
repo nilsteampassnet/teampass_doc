@@ -8,7 +8,7 @@ It is essential to organize the Folders in a clever way to permit an easy way to
 
 Access to the `Folders Management` page.
 
-![Screenshot](img/mng-fld-1.png)
+![Screenshot](../img/mng-fld-1.png)
 
 # Create a new Folder
 
