@@ -13,9 +13,9 @@ The next described protocol is a recommended one.
 * Download lastest package on your server,
 * Unzip package into `Teampass` folder (could be another name),
 * Copy from `Teampass_old` to `Teampass` folder:
-   * the file `/includes/config/settings.php`
-   * the file `/includes/config/tp.config.php`
-   * the folders `backups`, `files` and `upload`
+	* the file `/includes/config/settings.php`
+	* the file `/includes/config/tp.config.php`
+	* the folders `backups`, `files` and `upload`
 * Enter url `http://your_domain/teampass/install/upgrade.php`
 * Now follow the upgrade pages
 
