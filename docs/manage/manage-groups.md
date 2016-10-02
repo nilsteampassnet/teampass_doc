@@ -93,7 +93,7 @@ To activate this, click on the icon as shown in next screen-capture.
 
 # Who can manage Groups
 
-Creation, modification and deletion can only be performed by an Administrator or a Manager.
+Creation, modification and deletion can only be performed by an `Administrator` or a `Manager`.
 
 Notes:
 
