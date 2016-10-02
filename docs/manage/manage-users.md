@@ -133,6 +133,7 @@ Using the selectors, you can also perform quickly the next action on a User.
 ![Screenshot](../img/mng-usr-12.png)
 
 * Allow to `create folders on Root level`
+* Enable or not `Personal Folders`
 * Change the `Password`
 * Change the `Email`
 * See the `Log`
