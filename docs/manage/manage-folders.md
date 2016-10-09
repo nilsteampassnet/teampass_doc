@@ -52,4 +52,3 @@ Deleting a Folder is done by
 If you confirm the deletion, then all Items inside this Folder will also be deleted.
 
 	Note that deleted Folders are not really deleted but sent to `recycled bin`.
-
