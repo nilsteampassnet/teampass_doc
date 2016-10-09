@@ -11,7 +11,7 @@ It can be securized through usage of dedicated options defined here below.
 
 As written previously, the initial level of authenication relies on the couple `Login` and a `Password`. This means that the user needs to indicate his credentials to get connected.
 
-> Notice that 3 wrong attempts will disable the login feature during a period of 10 seconds.
+	Notice that 3 wrong attempts will disable the login feature during a period of 10 seconds.
 
 # Securize login with Google Two-Factors
 
@@ -19,7 +19,7 @@ An option permits to enable `Google Two-Factors` to complete the initial login p
 
 Google two-factor authentication enhances logon security. When logging in, a QR code is displayed, which must be scanned into the user's Google Authentication app to receive a one-time password. 
 
-> This requires all users to have Google authentication aplication on an Internet-connected mobile device.
+	This requires all users to have Google authentication aplication on an Internet-connected mobile device.
 
 # Securize login with DUOSecurity
 
@@ -56,7 +56,7 @@ How to create the DUOSecurity application for your Teampass instance.
  
 Inside the DUOSecurity interface select the Users menu and create a new user for each user you have in Teampass.
  
-> You must ensure that the speling is exactly similar.
+	You must ensure that the speling is exactly similar.
  
  ## Enable DUOSecurity in Teampass
  
