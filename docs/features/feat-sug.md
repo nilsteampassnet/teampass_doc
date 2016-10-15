@@ -27,8 +27,6 @@ It is a classical table view that permits to quickly identify the existing sugge
 
 # Adding a Suggestion
 
-## How to?
-
 New Suggestion is done using the `Add Button`.
 The Suggestion definition is done through the next form.
 
@@ -42,7 +40,7 @@ The next fields are used:
 * `Password` is the Item Password
 * `Comment` permits the originator of the Suggestion to give some inputs to the Validator
 
-## Specific case of suggesting a modification of existing Item
+# Suggesting a modification of an existing Item
 
 If the read-only user wants to suggest a modification, it is mandatory to:
 
