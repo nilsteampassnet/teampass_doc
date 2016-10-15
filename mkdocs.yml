@@ -4,7 +4,7 @@ copyright: '2016 (c) Nils Laumaillé - Teampass.net'
 theme: slate
 pages:
 - Home: 'index.md'
-- Definitions: 'definition.md'
+- Intro: 'GUI.md'
 - Features:
     - 'Items': 'features/feat-items.md'
     - 'Authentication': 'features/feat-2FA.md'
