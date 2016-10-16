@@ -10,4 +10,4 @@ Teampass is a Collaborative Passwords Manager. It permits to organize the passwo
 
 ---
 
-![Screenshot](../img/feat-item-1.png)
+![Screenshot](img/feat-item-1.png)
