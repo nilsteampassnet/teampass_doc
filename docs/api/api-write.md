@@ -16,11 +16,11 @@ Adding a new Item is done through URL:
 <url to teampass>/api/index.php/add/item/<label>;<password>;<description>;<folder id>;<login>;<email>;<url>;<tags>;<any one can modify>?apikey=<valid api key>
 ```
 
+`<label>;<password>;<description>;<folder id>;<login>;<email>;<url>;<tags>;<any one can modify>` send as a **base64 encoding** string.
 The separator symbol is the semi-column ` ; `.
 
 *Some limitations*:
 
-* `URL` should NOT include `http://`. Indeed this would break the initial url.
 * `tags` field can be used for multiple tags and they need to be separated by a space.
 * `any one can modify` is a boolean and accepts value `1` for `TRUE` and value `0` for `FALSE`.
 
