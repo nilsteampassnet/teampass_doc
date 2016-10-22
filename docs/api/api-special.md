@@ -56,3 +56,30 @@ The separator symbol is the comma ` ; `.
 *Some limitations*:
 
 * `ADMINISTRATEDBY`, `READ_ONLY`, `IS_ADMIN`, `ISMANAGER`, `PERSONAL_FOLDER` are boolean and accept value `1` for `TRUE` and value `0` for `FALSE`.
+
+# Generate a password
+
+Generating a new password is done through URL:
+
+```yaml
+<url to teampass>/api/index.php/new_password/<size>;<secure>;<numerals>;<capitalize>;<ambiguous>;<symbols>;<base64 encoded string>?apikey=<VALID API KEY>
+```
+
+With:
+
+* `<size>` an integer taken from 4 to 50
+* `<secure>` takes `1` if secure password is expected, else it takes `0`
+* `<numerals>` takes `1` if password can contain numerals, else it takes `0`
+* `<capitalize>` takes `1` if password can contain capitalize letters, else it takes `0`
+* `<ambiguous>` takes `1` if password can contain ambiguous letters, else it takes `0`
+* `<symbols>` takes `1` if password can contain symbols, else it takes `0`
+* `<base64 encoded string>` takes `1` if you want the password to be sent back in base64 encoding string. This is mandatory if you ask for symbols.
+
+The format sent back is JSON.
+```yaml
+Example: {"password" : "Chohcee7phahTooThoh"}
+```
+If symbols are asked then password is base64 encoded
+```yaml
+Example: {"password" : "Y3VlM0hhaHlhaDlvaWomYWU0bw=="}
+```
