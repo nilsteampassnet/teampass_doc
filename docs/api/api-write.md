@@ -26,6 +26,24 @@ The separator symbol is the semi-column ` ; `.
 
 Notice that if a similar Label exists, the add request will fail.
 
+# Update an Item
+
+Updating an exissting Item is done through URL:
+
+```yaml
+<url to teampass>/api/index.php/update/item/<item_id>/<label>;<password>;<description>;<folder_id>;<login>;<email>;<url>;<tags>;<any one can modify>?apikey=<valid api key>
+```
+
+With `<label>;<password>;<description>;<folder_id>;<login>;<email>;<url>;<tags>;<any one can modify>` send as a base64 encoding string
+
+The separator symbol is the semi-column ` ; `.
+
+Example:
+```yaml
+<url to teampass>/api/index.php/update/item/2/TW90b3JvbGEuY29tO01vdG9yb2xhLmNvbTtNb3Rvcm9sYSBjdXN0b21lciBwb3J0YWw7MjtKZWFuLVBhdWw7anAubWF1cmljZUBnbWFpbC5jb207aHR0cHM6Ly93d3cubW90b3JvbGEuY29tO3Rlc3QgbW90b3JvbGEgcG9ydGFsIGN1c3RvbWVyOzA?apikey=eevu1Aed0aiN4Phee9xaeshu2athool3iek2ahy
+```
+where the base64 encoded string is made of `Motorola.com;Motorola.com;Motorola customer portal;2;Jean-Paul;jp.maurice@gmail.com;https://www.motorola.com;test motorola portal customer;0`.
+
 # Delete an Item
 
 Deleting an Item is done through URL:
