@@ -21,7 +21,7 @@ With
 
 * `<folder id>` is the folder ID
 
-The answer would be
+The format sent back is JSON.
 
 ```yaml
 {
@@ -81,6 +81,42 @@ To get all the items a user is allowed to access, use URL
 ```
 
 The answer would be exactly the same as in the previous example.
+
+
+# Read user's folders
+
+To get all the folders a user is allowed to access, use URL
+
+```yaml
+<url to teampass>/api/index.php/read/userfolders/<user's login>?apikey=<valid api key>
+```
+
+The format sent back is JSON.
+
+```yaml
+{
+  {
+    "id": "2",
+    "title": "F2 - my new folder",
+    "level": "1"
+  },
+  {
+    "id": "5",
+    "title": "Sub folder name",
+    "level": "2"
+  },
+  {
+    "id": "22",
+    "title": "A very long folder name",
+    "level": "2"
+  },
+  {
+    "id": "23",
+    "title": "teampass-connect",
+    "level": "1"
+  }
+}
+```
 
 # Find items
 
