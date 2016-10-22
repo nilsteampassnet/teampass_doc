@@ -98,22 +98,32 @@ The format sent back is JSON.
   {
     "id": "2",
     "title": "F2 - my new folder",
-    "level": "1"
+    "level": "1",
+    "access_type": "NDNE"
   },
   {
     "id": "5",
     "title": "Sub folder name",
-    "level": "2"
+    "level": "2",
+    "access_type": "W"
   },
   {
     "id": "22",
     "title": "A very long folder name",
-    "level": "2"
+    "level": "2",
+    "access_type": "NDNE"
   },
   {
     "id": "23",
     "title": "teampass-connect",
-    "level": "1"
+    "level": "1",
+    "access_type": "ND"
+  },
+  {
+    "id": "24",
+    "title": "An Edited folder 1",
+    "level": "1",
+    "access_type": "W"
   }
 }
 ```
