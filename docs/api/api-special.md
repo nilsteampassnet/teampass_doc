@@ -51,7 +51,8 @@ Adding a new User is done through URL:
 ```yaml
 <url to teampass>/api/index.php/add/user/<LOGIN>;<NAME>;<LASTNAME>;<PASSWORD>;<EMAIL>;<ADMINISTRATEDBY>;<READ_ONLY>;<ROLE1,ROLE2,...>;<IS_ADMIN>;<ISMANAGER>;<PERSONAL_FOLDER>?apikey=<VALID API KEY>
 ```
-The separator symbol is the comma ` ; `.
+
+`<LOGIN>;<NAME>;<LASTNAME>;<PASSWORD>;<EMAIL>;<ADMINISTRATEDBY>;<READ_ONLY>;<ROLE1,ROLE2,...>;<IS_ADMIN>;<ISMANAGER>;<PERSONAL_FOLDER>` has to be sent as a **base64 encoded string**. The separator symbol is the comma ` ; `.
 
 *Some limitations*:
 
