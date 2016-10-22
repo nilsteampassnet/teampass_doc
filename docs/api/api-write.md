@@ -28,7 +28,7 @@ Notice that if a similar Label exists, the add request will fail.
 
 # Update an Item
 
-Updating an exissting Item is done through URL:
+Updating an existing Item is done through URL:
 
 ```yaml
 <url to teampass>/api/index.php/update/item/<item_id>/<label>;<password>;<description>;<folder_id>;<login>;<email>;<url>;<tags>;<any one can modify>?apikey=<valid api key>
@@ -64,13 +64,27 @@ Adding a new Folder is done through URL:
 ```
 
 With:
+
 * `<title>;<complexity_level>;<parent_id>;<renewal_period>;<personal>` send as a **base64 encoding** string.
 The separator symbol is the semi-column ` ; `.
 * `<complexity_level>` is selected between the next values `[0, 25, 50, 60, 70, 80, 90]`
 * `<personal>` takes `0` if public. It takes `1` if it is a personal folder, and in this case `<title>` must be `<user_id>`.
 * `<parent_id>` takes `0` if it is `root level`.
 
+> Notice that Users will not have access to this new folder. It will be requested to set the expected access rights on it.
 
+# Update a Folder
+
+Updating an existing Folder is done through URL:
+
+```yaml
+<url to teampass>/api/index.php/update/folder/<folder_id>/<title>;<complexity_level>;<renewal_period>?apikey=<valid api key>
+```
+
+With:
+
+* `<title>;<complexity_level>;<renewal_period>` send as a **base64 encoding** string. The separator symbol is the semi-column ` ; `.
+* `<complexity_level>` is selected between the next values `[0, 25, 50, 60, 70, 80, 90]`
 
 # Delete a Folder
 
