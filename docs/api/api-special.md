@@ -104,3 +104,22 @@ The format sent back is JSON.
   "90": "Very heavy"
 }
 ```
+
+# Return information about Folder
+
+The FOlder information are obtain through URL:
+
+```yaml
+<url to teampass>/api/index.php/info/folder/<folder_id>?apikey=<VALID API KEY>
+```
+
+The format sent back is JSON.
+```yaml
+{
+  "title": "Sub folder name",
+  "personal_folder": "0",
+  "renewal_period": "0",
+  "parent_id": "1",
+  "path": "Folder #1 > Sub folder name"
+}
+```
