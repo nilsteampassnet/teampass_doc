@@ -34,8 +34,7 @@ Updating an exissting Item is done through URL:
 <url to teampass>/api/index.php/update/item/<item_id>/<label>;<password>;<description>;<folder_id>;<login>;<email>;<url>;<tags>;<any one can modify>?apikey=<valid api key>
 ```
 
-With `<label>;<password>;<description>;<folder_id>;<login>;<email>;<url>;<tags>;<any one can modify>` send as a base64 encoding string
-
+With `<label>;<password>;<description>;<folder_id>;<login>;<email>;<url>;<tags>;<any one can modify>` send as a **base64 encoding** string.
 The separator symbol is the semi-column ` ; `.
 
 Example:
@@ -55,6 +54,23 @@ Deleting an Item is done through URL:
 The separator symbol is the semi-column ` ; `.
 
 The answer would be `OK` if succeeded or the error if failed.
+
+# Add new Folder
+
+Adding a new Folder is done through URL:
+
+```yaml
+<url to teampass>/api/index.php/add/folder/<title>;<complexity_level>;<parent_id>;<renewal_period>;<personal>?apikey=<valid api key>
+```
+
+With:
+* `<title>;<complexity_level>;<parent_id>;<renewal_period>;<personal>` send as a **base64 encoding** string.
+The separator symbol is the semi-column ` ; `.
+* `<complexity_level>` is selected between the next values `[0, 25, 50, 60, 70, 80, 90]`
+* `<personal>` takes `0` if public. It takes `1` if it is a personal folder, and in this case `<title>` must be `<user_id>`.
+* `<parent_id>` takes `0` if it is `root level`.
+
+
 
 # Delete a Folder
 
