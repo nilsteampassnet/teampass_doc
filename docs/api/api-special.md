@@ -83,3 +83,24 @@ If symbols are asked then password is base64 encoded
 ```yaml
 Example: {"password" : "Y3VlM0hhaHlhaDlvaWomYWU0bw=="}
 ```
+
+# Get the list of Complexicity levels
+
+The list is sent back through URL:
+
+```yaml
+<url to teampass>/api/index.php/info/complexicity_levels_list?apikey=<VALID API KEY>
+```
+
+The format sent back is JSON.
+```yaml
+{
+  "0": "Very weak",
+  "25": "Weak",
+  "50": "Medium",
+  "60": "Strong",
+  "70": "Very strong",
+  "80": "Heavy",
+  "90": "Very heavy"
+}
+```
