@@ -106,9 +106,9 @@ The format sent back is JSON.
 }
 ```
 
-# Return information about Folder
+# Return Folder information
 
-The FOlder information are obtain through URL:
+The Folder information are obtain through URL:
 
 ```yaml
 <url to teampass>/api/index.php/info/folder/<folder_id>?apikey=<VALID API KEY>
@@ -123,4 +123,12 @@ The format sent back is JSON.
   "parent_id": "1",
   "path": "Folder #1 > Sub folder name"
 }
+```
+
+# API version
+
+Get API version through URL:
+
+```yaml
+<url to teampass>/api/index.php/info/api_version?apikey=<VALID API KEY>
 ```
