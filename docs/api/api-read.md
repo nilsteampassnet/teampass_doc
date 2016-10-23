@@ -32,7 +32,7 @@ The format sent back is JSON.
 
 ```yaml
 {
-	"16": {
+  "16": {
     "id": "16",
     "label": "Yahoo mail",
     "description": "Yahoo webmail",
