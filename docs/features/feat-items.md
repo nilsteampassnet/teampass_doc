@@ -36,5 +36,12 @@ The Item detail area permits the user to see all data related to an Item.
 
 # Searching Items
 
+You can perform a search inside a specific page.
+
+![Screenshot](../img/feat-item-6.png)
+
+The Items are shown in a table format in which you can perform a search using a criteria. This criteria performs the search inside several fields.
+
+![Screenshot](../img/feat-item-7.png)
 
 # Attach files to Item
