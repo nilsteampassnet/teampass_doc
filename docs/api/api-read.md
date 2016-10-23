@@ -6,7 +6,7 @@ The call is performed with a `GET` query and sends back the data at `json` forma
 
 This page describes how to read data.
 
-    In this page, `<valid api key>` is the API key you received from your administrator.
+> In this page, `<valid api key>` is the API key you received from your administrator.
 
 
 # Read Folders
@@ -71,7 +71,34 @@ With
 
 * `<item idX>` is the item ID
 
-The answer would be exactly the same as in the previous example.
+The format sent back is JSON.
+
+```yaml
+{
+  "2": {
+    "id": "2",
+    "label": "Motorola.com",
+    "description": "Motorola customer portal",
+    "login": "Jean-Paul",
+    "email": "jp.maurice@gmail.com",
+    "url": "https://www.motorola.com",
+    "pw": "Motorola.com",
+    "folder_id": "2",
+    "path": "F2 - my new folder"
+  },
+  "16": {
+    "id": "16",
+    "label": "Yahoo mail",
+    "description": "Yahoo webmail",
+    "login": "Itsme",
+    "email": "itsme@yahoo.com",
+    "url": "https://mail.yahoo.com",
+    "pw": ",\"7@Y6^gC[",
+    "folder_id": "5",
+    "path": "Folder #1 > Sub folder name"
+  }
+}
+```
 
 # Read user's items
 
@@ -81,7 +108,34 @@ To get all the items a user is allowed to access, use URL
 <url to teampass>/api/index.php/read/userpw/<user's login>?apikey=<valid api key>
 ```
 
-The answer would be exactly the same as in the previous example.
+The format sent back is JSON.
+
+```yaml
+{
+  "16": {
+    "id": "16",
+    "label": "Yahoo mail",
+    "description": "Yahoo webmail",
+    "login": "Itsme",
+    "email": "itsme@yahoo.com",
+    "url": "https://mail.yahoo.com",
+    "pw": ",\"7@Y6^gC[",
+    "folder_id": "5",
+    "path": "Folder #1 > Sub folder name"
+  },
+  "2": {
+    "id": "2",
+    "label": "Motorola.com",
+    "description": "Motorola customer portal",
+    "login": "Jean-Paul",
+    "email": "jp.maurice@gmail.com",
+    "url": "https://www.motorola.com",
+    "pw": "Motorola.com",
+    "folder_id": "2",
+    "path": "F2 - my new folder"
+  }
+}
+```
 
 
 # Read user's folders
