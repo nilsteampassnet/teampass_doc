@@ -32,7 +32,7 @@ The format sent back is JSON.
 
 ```yaml
 {
-  "16": {
+  {
     "id": "16",
     "label": "Yahoo mail",
     "description": "Yahoo webmail",
@@ -42,17 +42,6 @@ The format sent back is JSON.
     "pw": ",\"7@Y6^gC[",
     "folder_id": "5",
     "path": "Folder #1 > Sub folder name"
-  },
-  "2": {
-    "id": "2",
-    "label": "Motorola.com",
-    "description": "Motorola customer portal",
-    "login": "Jean-Paul",
-    "email": "jp.maurice@gmail.com",
-    "url": "https://www.motorola.com",
-    "pw": "Motorola.com",
-    "folder_id": "2",
-    "path": "F2 - my new folder"
   }
 }
 ```
@@ -75,27 +64,27 @@ The format sent back is JSON.
 
 ```yaml
 {
-  "2": {
-    "id": "2",
-    "label": "Motorola.com",
-    "description": "Motorola customer portal",
-    "login": "Jean-Paul",
-    "email": "jp.maurice@gmail.com",
-    "url": "https://www.motorola.com",
-    "pw": "Motorola.com",
+  {
+    "id": "3",
+    "label": "yahoo",
+    "description": "",
+    "login": "nils@yahoo.fr",
+    "email": "nils@yahoo.fr",
+    "url": "https://login.yahoo.com/",
+    "pw": "9&EzzpM90@d7",
     "folder_id": "2",
     "path": "F2 - my new folder"
   },
-  "16": {
-    "id": "16",
-    "label": "Yahoo mail",
-    "description": "Yahoo webmail",
-    "login": "Itsme",
-    "email": "itsme@yahoo.com",
-    "url": "https://mail.yahoo.com",
-    "pw": ",\"7@Y6^gC[",
-    "folder_id": "5",
-    "path": "Folder #1 > Sub folder name"
+  {
+    "id": "20",
+    "label": "Webdealauto",
+    "description": "Imported with Teampass-Connect",
+    "login": "nils@yahoo.fr",
+    "email": "",
+    "url": "http://www.webdealauto.com/fr",
+    "pw": "odO@s'23E",
+    "folder_id": "23",
+    "path": "teampass-connect"
   }
 }
 ```
@@ -112,18 +101,18 @@ The format sent back is JSON.
 
 ```yaml
 {
-  "16": {
-    "id": "16",
-    "label": "Yahoo mail",
-    "description": "Yahoo webmail",
-    "login": "Itsme",
-    "email": "itsme@yahoo.com",
-    "url": "https://mail.yahoo.com",
-    "pw": ",\"7@Y6^gC[",
-    "folder_id": "5",
-    "path": "Folder #1 > Sub folder name"
+  {
+    "id": "1",
+    "label": "DNS server",
+    "description": "For all DNS management",
+    "login": "Admin",
+    "email": "admin@dns.fr",
+    "url": "http://mydns.fr",
+    "pw": "Ud9r^ G7",
+    "folder_id": "1",
+    "path": "Folder #1"
   },
-  "2": {
+  {
     "id": "2",
     "label": "Motorola.com",
     "description": "Motorola customer portal",
@@ -206,10 +195,10 @@ The answer would be
     "id": "3",
     "label": "yahoo",
     "description": "",
-    "login": "nlaumaille@yahoo.fr",
-    "email": "nlaumaille@yahoo.fr",
+    "login": "nils@yahoo.fr",
+    "email": "nils@yahoo.fr",
     "url": "https://login.yahoo.com/",
-    "pw": "martin95",
+    "pw": "Po9_T5rte3",
     "folder_id": "2",
     "path": "F2 - my new folder",
     "status": "OK"
