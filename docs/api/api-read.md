@@ -9,52 +9,53 @@ This page describes how to read data.
     In this page, `<valid api key>` is the API key you received from your administrator.
 
 
-# Read one Folder
+# Read Folders
 
-Reading the content of a Folder is performed by accessing the URL
+Reading the content of one or several Folders is performed by accessing the URL
 
 ```yaml
-<url to teampass>/api/index.php/read/category/<folder id>?apikey=<valid api key>
+<url to teampass>/api/index.php/read/folder/<folder id>?apikey=<valid api key>
+```
+
+or
+
+```yaml
+<url to teampass>/api/index.php/read/folder/<folder id1>;<folder id2>;<folder id3>?apikey=<valid api key>
 ```
     
 With
 
 * `<folder id>` is the folder ID
+* The separator symbol is the semi-column ` ; `
 
 The format sent back is JSON.
 
 ```yaml
 {
-	"1":{
-		"label":"I1",
-		"login":"",
-		"pw":"&XZcww1",
-		"url":"http://teampass.net"
-	},
-	"2":{
-		"label":"Google",
-		"login":"Me",
-		"pw":"nid6YA$B",
-		"url":"http://teampass.net"
-	}
+	"16": {
+    "id": "16",
+    "label": "Yahoo mail",
+    "description": "Yahoo webmail",
+    "login": "Itsme",
+    "email": "itsme@yahoo.com",
+    "url": "https://mail.yahoo.com",
+    "pw": ",\"7@Y6^gC[",
+    "folder_id": "5",
+    "path": "Folder #1 > Sub folder name"
+  },
+  "2": {
+    "id": "2",
+    "label": "Motorola.com",
+    "description": "Motorola customer portal",
+    "login": "Jean-Paul",
+    "email": "jp.maurice@gmail.com",
+    "url": "https://www.motorola.com",
+    "pw": "Motorola.com",
+    "folder_id": "2",
+    "path": "F2 - my new folder"
+  }
 }
 ```
-
-# Read several Folder
-
-Reading the content of several Folders is performed by accessing the URL
-
-```yaml
-<url to teampass>/api/index.php/read/category/<folder id1>;<folder id2>;<folder id3>?apikey=<valid api key>
-```
-
-The separator symbol is the semi-column ` ; `.
-
-With
-
-* `<folder idX>` is the folder ID
-
-The answer would be exactly the same as in the previous example.
 
 # Read specific Items
 
@@ -147,23 +148,29 @@ The answer would be
 
 ```yaml
 {
-	"1":{
-		"id":"12",
-		"label":"Google.com",
-		"login":"Bob",
-		"pw":"&XZcww1`",
-		"url":"https://www.google.com",
-		"folder_id":"12",
-		"status":"OK"
-	},
-	"2":{
-		"id":"25",
-		"label":"Teampass",
-		"login":"Jane",
-		"pw":"&sdcww1`",
-		"url":"http://teampass.net",
-		"folder_id":"22",
-		"status":"OK"
-	}
+  {
+    "id": "3",
+    "label": "yahoo",
+    "description": "",
+    "login": "nlaumaille@yahoo.fr",
+    "email": "nlaumaille@yahoo.fr",
+    "url": "https://login.yahoo.com/",
+    "pw": "martin95",
+    "folder_id": "2",
+    "path": "F2 - my new folder",
+    "status": "OK"
+  },
+  {
+    "id": "13",
+    "label": "Yaho test",
+    "description": "Imported with Teampass-Connect",
+    "login": "plouf",
+    "email": "",
+    "url": "https://login.yahoo.com/",
+    "pw": "978qsd",
+    "folder_id": "23",
+    "path": "teampass-connect",
+    "status": "OK"
+  }
 }
 ```
