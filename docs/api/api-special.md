@@ -130,7 +130,7 @@ The format sent back is JSON.
 Get API version through URL:
 
 ```yaml
-<url to teampass>/api/index.php/info/api_version?apikey=<VALID API KEY>
+<url to teampass>/api/index.php/info/version?apikey=<VALID API KEY>
 ```
 
 The format sent back is JSON.
