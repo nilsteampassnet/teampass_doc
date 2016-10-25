@@ -101,7 +101,7 @@ The format sent back is JSON.
 
 ```yaml
 {
-  {
+  "1": {
     "id": "1",
     "label": "DNS server",
     "description": "For all DNS management",
@@ -112,8 +112,8 @@ The format sent back is JSON.
     "folder_id": "1",
     "path": "Folder #1"
   },
-  {
-    "id": "2",
+  "5": {
+    "id": "5",
     "label": "Motorola.com",
     "description": "Motorola customer portal",
     "login": "Jean-Paul",
@@ -139,34 +139,22 @@ The format sent back is JSON.
 
 ```yaml
 {
-  {
+  "2": {
     "id": "2",
-    "title": "F2 - my new folder",
+    "title": "My new folder",
     "level": "1",
     "access_type": "NDNE"
   },
-  {
+  "5": {
     "id": "5",
     "title": "Sub folder name",
     "level": "2",
     "access_type": "W"
   },
-  {
+  "22": {
     "id": "22",
     "title": "A very long folder name",
     "level": "2",
-    "access_type": "NDNE"
-  },
-  {
-    "id": "23",
-    "title": "teampass-connect",
-    "level": "1",
-    "access_type": "ND"
-  },
-  {
-    "id": "24",
-    "title": "An Edited folder 1",
-    "level": "1",
     "access_type": "W"
   }
 }
