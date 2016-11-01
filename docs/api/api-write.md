@@ -26,6 +26,15 @@ The separator symbol is the semi-column ` ; `.
 
 Notice that if a similar Label exists, the add request will fail.
 
+The answer sent back looks like this:
+
+```yaml
+{
+	"status" : "item added",
+    "new_item_id" : "54"
+}
+```
+
 # Update an Item
 
 Updating an existing Item is done through URL:
