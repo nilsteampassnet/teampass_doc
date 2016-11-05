@@ -82,6 +82,15 @@ The separator symbol is the semi-column ` ; `.
 
 > Notice that Users will not have access to this new folder. It will be requested to set the expected access rights on it.
 
+The answer sent back looks like this:
+
+```yaml
+{
+	"status" : "folder created",
+    "new_folder_id" : "54"
+}
+```
+
 # Update a Folder
 
 Updating an existing Folder is done through URL:
