@@ -16,7 +16,9 @@ In order to activate the change of password directly on the related server, you 
 
 * Display the details of the Item in Teampass
 * Select option `Update server's password`
+
 ![Screenshot](../img/feat-remo-1.png)
+
 * A new dialogbox will be displayed
 * You can select either `One shot change` or `scheduled change`
 * Enter the credentials to permit the Teampass script to get authorize through SSH
