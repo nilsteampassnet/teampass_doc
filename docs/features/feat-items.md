@@ -45,3 +45,26 @@ The Items are shown in a table format in which you can perform a search using a 
 ![Screenshot](../img/feat-item-7.png)
 
 # Attach files to Item
+
+You can attach files to your item. In case it is an image, Teampass displays it through a Viewer.
+
+![Screenshot](../img/feat-item-10.png)
+
+To attach files,
+
+* select tab `Files & Images`
+![Screenshot](../img/feat-item-8.png)
+* Click `Select` and select the files to attach
+* Click `Start file upload` to upload the selected files.
+![Screenshot](../img/feat-item-9.png)
+* Now save
+
+Several options can be defined by Administrator to fit security rules.
+It is possible to:
+
+* limit the files extension 
+* limit the maximum size of an attached file
+* resize the image
+
+![Screenshot](../img/feat-item-11.png)
+
