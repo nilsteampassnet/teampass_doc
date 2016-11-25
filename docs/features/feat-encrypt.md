@@ -6,7 +6,7 @@ All other fields are in clear text in the database.
 
 # Strategy used
 
-Encryption is performed using Cipher AES with a 128 bits block size relying on Cipher Block Chaining (CBC). This technic uses:
+Encryption is performed using **Cipher AES with a 128 bits block size relying on Cipher Block Chaining** (CBC). This technic uses:
 
 * an `Initialization Vector` (IV) which is generated for each new encryption
 * a `saltkey` which is defined by the Administrator of Teampass (and asked during installation) for all public Items. Notice that if you are using `Personal Folders` then each Teampass user defines his own saltkey.
