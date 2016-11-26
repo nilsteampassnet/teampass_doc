@@ -82,3 +82,7 @@ Adding a new field in a Category is performed as this:
 * click the icon +,
 * enter the label of the field,
 * confirm with the button
+
+# Information
+
+Notice that when creating a new sub-folder of a Folder that is associated to `Custom Fields` categories, this new folder will inherit of those categories.
