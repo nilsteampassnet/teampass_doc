@@ -11,3 +11,7 @@ Teampass is a Collaborative Passwords Manager. It permits to organize the passwo
 ---
 
 ![Screenshot](img/feat-item-1.png)
+
+# Information
+
+Notice that this user-guide has been written based upon 2.1.26 release.
