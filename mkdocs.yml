@@ -1,6 +1,6 @@
 site_name: Teampass Documentation
 site_author: Nils Laumaillé
-copyright: '2016 (c) Nils Laumaillé - Teampass.net'
+copyright: '2017 © Nils Laumaillé - Teampass.net'
 theme: slate
 pages:
 - Home: 'index.md'
