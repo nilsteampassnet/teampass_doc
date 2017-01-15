@@ -71,3 +71,41 @@ It is possible to:
 * resize the image
 
 ![Screenshot](../img/feat-item-11.png)
+
+# Delete an Item
+
+You can delete an Item. To do so:
+* select the Item
+* do a click on the top Item menu button
+* select "Delete item"
+
+![Screenshot](../img/feat-item-12.png)
+
+* confirm deletion
+
+![Screenshot](../img/feat-item-13.png)
+
+> A Deleted item is only disabled and not deleted from the database. It is possible to restore it unless it has been purged.
+
+# Restore an Item
+
+A deleted item can be either restore back to its previous position, either purged away.
+
+To do so:
+* be logged as a Manager or Administrator
+* select `Utilities` view
+
+![Screenshot](../img/feat-item-14.png)
+
+* select tab `Deletion`
+* select the Items to Restore or Delete
+* click button corresponding to your choice
+
+![Screenshot](../img/feat-item-15.png)
+
+> If you decide to Delete, the selected Items will be purged from the database.
+
+> If you decide to Restore, the selected items will be restored at their previous position.
+
+
+
