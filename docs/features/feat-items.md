@@ -107,5 +107,40 @@ To do so:
 
 > If you decide to Restore, the selected items will be restored at their previous position.
 
+# Mass move & delete
 
+[Introduced in 2.1.27]
 
+Mass operation permits to select a set of Items and perform a common action on them. Currently, you may either `Move` or `Delete` a selection of Items.
+
+This feature is only allowed if the setting `Allow user to perform massive move and delete operations` is set to **Yes**.
+
+Performing mass operation is possible from the page called `Find`.
+
+![Screenshot](../img/feat-item-16.png)
+
+When the user has the right to either move or delete an item, a checkbox is added in front of its label.
+
+![Screenshot](../img/feat-item-17.png)
+
+You may select as many items you want.
+
+Using the icons, you can decide to launch the action you want.
+
+![Screenshot](../img/feat-item-18.png)
+
+## Moving items
+
+Select the destination folder and click on OK button.
+
+![Screenshot](../img/feat-item-19.png)
+
+Wait until the dialogbox is closed.
+
+## Deleting items
+
+Confirm the deletion by clicking on OK button.
+
+![Screenshot](../img/feat-item-20.png)
+
+Wait until the dialogbox is closed.
