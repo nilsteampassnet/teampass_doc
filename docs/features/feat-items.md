@@ -144,3 +144,46 @@ Confirm the deletion by clicking on OK button.
 ![Screenshot](../img/feat-item-20.png)
 
 Wait until the dialogbox is closed.
+
+# Suggest an Item change
+
+[Introduced in 2.1.27]
+
+Suggesting a change on an existing item is possible. The user may suggest a change for `Label`, `Password`, `Login`, `Email` and `Url`.
+
+## Making a change proposal
+
+Select the Item on which the change proposal has to be made
+
+![Screenshot](../img/feat-item-21.png)
+
+Change the fields you are interested in. You may also add a comment that will help the Manager to know the context of the proposal.
+
+![Screenshot](../img/feat-item-22.png)
+
+Click to confirm your proposal. An email is sent to the Managers to warn about a new proposal.
+
+## Approving / Rejecting a change proposal
+
+Once created, the change proposal is stored in database. When the user is a Manager, he will be warned by the blinking icon.
+
+![Screenshot](../img/feat-item-23.png)
+
+Click to open the Suggestion view and click the tab `Change proposals`
+
+![Screenshot](../img/feat-item-24.png)
+
+This shows all on-going change proposals that are still pending.
+Click the icon to open the details about the change proposal.
+
+The dialog-box shows the current values in the fields for the Item, and the proposed one.
+The Manager can `Approve` or `Reject` using the buttons.
+
+![Screenshot](../img/feat-item-25.png)
+
+Notice that the Manager can decide the fields to be updated. Meaning that the user may propose a change on fieds `Login` and `Email`, and the Manager can only accept the `Login` change.
+To do so, click on the Green tick to cancel the field change.
+
+![Screenshot](../img/feat-item-26.png)
+
+All changes are logged into the Item history.
