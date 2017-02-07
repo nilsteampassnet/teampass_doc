@@ -14,6 +14,7 @@ pages:
     - 'Encryption': 'features/feat-encrypt.md'
     - 'Import & Export': 'features/feat-impexp.md'
     - 'Remote server': 'features/feat-remote.md'
+    - 'User': 'features/feat-user.md'
 - Installation:
     - 'On Linux server': 'install/install-linux.md'
     - 'On Windows server': 'install/install-windows.md'
