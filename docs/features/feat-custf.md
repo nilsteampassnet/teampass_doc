@@ -83,6 +83,14 @@ Adding a new field in a Category is performed as this:
 * enter the label of the field,
 * confirm with the button
 
+# Field data encryption
+
+By default, the data inside the Fields are encrypted.
+
+You may disable encryption using the key symbol in front of the field definition.
+
+![Screenshot](../img/feat-cusf-2.png)
+
 # Information
 
 Notice that when creating a new sub-folder of a Folder that is associated to `Custom Fields` categories, this new folder will inherit of those categories.
