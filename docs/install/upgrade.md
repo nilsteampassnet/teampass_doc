@@ -1,3 +1,5 @@
+__Valid since 2.1.27 release
+
 # Upgrade Teampass to a new release
 
 It is recommended to install the latest Teampass release.
@@ -21,31 +23,30 @@ The next described protocol is a recommended one.
 
 # Step 1
 
-It's an introduction page with some recommendations and the licence display.
+It's an introduction page with some recommendations.
+
+Get logged using an _Administrator account_.
 
 # Step 2
 
 Some server checks are performed based upon the path. Please check that the path is correct before starting.
 
-	Be sure to check that Encryption Key is correct.
-
 # Step 3
 
-Check that the given database credentials are correct and permit Teampass to get connected to the database.
+This page loads the database credentials from the file `/includes/config/settings.php`.
+If you have performed changes, you need to edit this file priori to continue this step.
 
-It is required to give the next credentials:
+If a previous upgrade didn't stored the saltky inside the database, a fieldset will appears asking you to enter it inside a specific password field.
 
-- **Server name** (ex: localhost)
-- **Database name** (it is recommended to have a dedicated database for Teampass. Ex: teampass)
-- **User** (it is recommended that this user has ROOT privileges on Teampass database) 
-- **Password**
-- **Tables prefix**
+> You need to write the saltkey that is inside the sk.php file.
 
 # Step 4
 
-This step permits the tables creation and data copy.
+This step permits the database update.
 
-A second part of this step consists in generating the Items keys if needed.
+# Step 5
+
+This step updates configuration files
 
 # Done
 
