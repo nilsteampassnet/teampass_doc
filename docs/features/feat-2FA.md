@@ -74,4 +74,43 @@ Inside the DUOSecurity interface select the Users menu and create a new user for
 
 [agses.net](https://agses.net/)
 
-> Planned to be developped in 2.1.27
+> Introduced in 2.1.27
+
+## Configure AGSES at Teampass level
+
+  * Login in Teampass with an Administrator account.
+  * Open `Settings` page
+  * Select tab `2FA options`
+  * Enable `AGSES` by selecting option `Yes`
+   * Fill in `URL`, `ID` and `API KEY` with the credentials received from AGSES.
+  * Click button `Save AGSES settings`
+  
+![Screenshot](../img/feat-2fa-1.png)
+
+## User first loggin with AGSES Card enabled
+
+Once enabled, any user will need his AGSES Card to get authenticated in Teampass.
+
+If it is the first time the user get usage of his AGSES Card, a field asks him to enter his AGSES Card ID.
+
+![Screenshot](../img/feat-2fa-2.png)
+
+Then go to next step.
+
+## User login
+
+* Enter your login
+* Use the AGSES Card to read theflicker code
+* Enter the code from the AGSES Card
+* Click `Enter`
+
+![Screenshot](../img/feat-2fa-3.png)
+
+> Notice that you need to validate your code in a couple of seconds.
+
+## Changing the user AGSES Card ID
+
+If you need to change your AGSES Card ID, open your profile and change it.
+
+![Screenshot](../img/feat-2fa-4.png)
+
