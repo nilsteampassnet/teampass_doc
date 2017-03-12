@@ -5,7 +5,7 @@ copyright: '2017 © Nils Laumaillé - Teampass.net'
 repo_url: https://github.com/nilsteampassnet/teampass_doc/
 
 theme: readthedocs
-theme_dir: 'custom_theme'
+theme_dir: 'custom_theme/'
 
 extra_javascript:
 - js/extra.js
