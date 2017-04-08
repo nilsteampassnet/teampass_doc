@@ -23,6 +23,7 @@ pages:
     - 'Import & Export': 'features/feat-impexp.md'
     - 'Remote server': 'features/feat-remote.md'
     - 'Folders': 'features/feat-folders.md'
+    - 'User profile': 'features/feat-prof.md'
 - Installation:
     - 'On Linux server': 'install/install-linux.md'
     - 'On Windows server': 'install/install-windows.md'
