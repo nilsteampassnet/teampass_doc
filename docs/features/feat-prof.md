@@ -54,7 +54,7 @@ This will load the new image file (jpg or png files) as your Avatar.
 
 From Tasks menu, select `Change password` option, and follow instruction below.
 
-[Screenshot](../img/feat-prof-5.png)
+![Screenshot](../img/feat-prof-5.png)
 
 ## Change Personal Saltkey
 
