@@ -34,7 +34,7 @@ Select the `Timezone` corresponding to your localisation.
 
 Permits to define the language to use in Teampass.
 
-	Note that you can participate to the translation of Teampass using [Poeditor](https://poeditor.com/projects/view?id=16418).
+> Note that you can participate to the translation of Teampass using [Poeditor](https://poeditor.com/projects/view?id=16418).
 
 # Running Tasks
 
@@ -50,7 +50,7 @@ This will load the new image file (jpg or png files) as your Avatar.
 
 ## Change Password
 
-	This task permits you to change the password you are using to get logged in Teampass.
+> This task permits you to change the password you are using to get logged in Teampass.
 
 From Tasks menu, select `Change password` option, and follow instruction below.
 
@@ -58,7 +58,7 @@ From Tasks menu, select `Change password` option, and follow instruction below.
 
 ## Change Personal Saltkey
 
-	This task permits you to change your personal saltkey.
+> This task permits you to change your personal saltkey.
     
 Remember that the personal saltkey permits you to encrypt your personal items. This means that only this saltkey can encrypt them. No one else that you knows how to decrypt your personal items password. **So keep it safe**.
 
@@ -73,8 +73,7 @@ Be patient until the message `Done` appears. The page will then be reloaded auto
 
 ## Reset my Personal Saltkey
 
-	This task permits you to Reset your personal saltkey.
-    It shall only be used if you have lost your current personal saltkey.
+> This task permits you to Reset your personal saltkey. It shall only be used if you have lost your current personal saltkey.
 
 From Tasks menu, select `Reset my Personal Saltkey` option, and follow instruction below.
 
