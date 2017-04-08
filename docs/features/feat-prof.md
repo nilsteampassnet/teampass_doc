@@ -16,7 +16,7 @@ As a User, it is possible to edit and change the next parameters.
 
 Click the `icon pen` at the left of the current email address. Do as explained below.
 
-[Screenshot](../img/feat-prof-3.png)
+![Screenshot](../img/feat-prof-3.png)
 
 ## Tree load strategy
 
@@ -40,7 +40,7 @@ Permits to define the language to use in Teampass.
 
 Tasks are useful to perform specific actions.
 
-[Screenshot](../img/feat-prof-4.png)
+![Screenshot](../img/feat-prof-4.png)
 
 ## Change Avatar
 
@@ -64,7 +64,7 @@ Remember that the personal saltkey permits you to encrypt your personal items. T
 
 From Tasks menu, select `Change my personal saltkey` option, and follow instruction below.
 
-[Screenshot](../img/feat-prof-6.png)
+![Screenshot](../img/feat-prof-6.png)
 
 Note that those fields are not masked.
 
@@ -78,6 +78,6 @@ Be patient until the message `Done` appears. The page will then be reloaded auto
 
 From Tasks menu, select `Reset my Personal Saltkey` option, and follow instruction below.
 
-[Screenshot](../img/feat-prof-7.png)
+![Screenshot](../img/feat-prof-7.png)
 
 BE CARREFUL, this task will delete your existing personal items as they are considered as lost because you don't have the personal saltkey anymore.
