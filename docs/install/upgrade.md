@@ -17,6 +17,7 @@ The next described protocol is a recommended one.
 * Copy from `Teampass_old` to `Teampass` folder:
 	* the file `/includes/config/settings.php`
 	* the file `/includes/config/tp.config.php`
+	* the file `/includes\libraries\csrfp\libs\csrfp.config.php`
 	* the folders `backups`, `files` and `upload`
 * Enter url `http://your_domain/teampass/install/upgrade.php`
 * Now follow the upgrade pages
