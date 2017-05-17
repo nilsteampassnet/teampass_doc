@@ -54,7 +54,7 @@ Now it's time to set some privileges to this user.
 *Using command line, on a Debian GNU/Linux system:*
 
 * Access your newly configured server: <br/><pre># mysql -uroot -p</pre>
-* Create the teampass_admin user, assigning it full rights to the TeamPass table: <br/><pre>grant all privileges on teampass.* to teampass_admin@localhost identified by 'the6mosaic=june';</pre>
+* Create the teampass_admin user, assigning it full rights to the TeamPass table: <br/><pre>grant all privileges on teampass.* to teampass_admin@localhost identified by 'PASSWORD';</pre>
 
 # Setup SSL
 
