@@ -85,7 +85,7 @@ If symbols are asked then password is base64 encoded
 Example: {"password" : "Y3VlM0hhaHlhaDlvaWomYWU0bw=="}
 ```
 
-# Get the list of Complexicity levels
+# Get the list of Complexity levels
 
 The list is sent back through URL:
 
