@@ -1,10 +1,12 @@
 #  Install Teampass on a GNU/Linux server
 
-The easiest way to install Teampass is to install LAMP dedicated to the GNU/Linux distribution you have. Refer to all the good tutorials existing to install Apache, MySQL (or MariaDB) and PHP.
+The easiest way to install Teampass is to install LAMP dedicated to the GNU/Linux distribution you have. 
 
-# Install PHP extensions
+This document highlights a basic setup, but you can refer to many other existing tutorials to install Apache, MariaDB (or mySQL) and PHP.
 
-Ensure to install the expected extensions required by Teampass:
+# Install the Apache web server and the required PHP extensions
+
+In addition to the Apache web server, the following PHP extensions are required by Teampass:
 
 * `mcrypt`
 * `mbstring`
@@ -14,6 +16,19 @@ Ensure to install the expected extensions required by Teampass:
 * `gd`
 * `mysqli_fetch_all`
 * `xml`
+
+On a Debian GNU/Linux system:
+
+<pre># apt-get install task-web-server php5-mysql php5-mcrypt php5-mbstring php5-fpm php5-iconv php5-xml php5-gd openssl php5-mysqlnd</pre>
+
+**Edit PHP.ini to increase max_execution_time**:
+
+On a Debian GNU/Linux system:
+<pre># nano /etc/php5/apache2/php.ini</pre>
+
+Increase the value from 30 to 60:
+
+<pre>max_execution_time = 60</pre>
 
 # Prepare the database
 
