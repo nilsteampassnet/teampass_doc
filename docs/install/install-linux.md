@@ -29,7 +29,7 @@ Using command line, on a Debian GNU/Linux system:
 * Install the mariadb-server package, specify a password when prompted to (consider using pwqgen from the passwdqc package to generate the password)
 * Run the mysql_secure_installation to finish the initial installation
 * Access your newly configured server (you'll be prompted for the database root password): <br/><pre># mysql -uroot -p</pre>
-* Create the TeamPass database: <br/><pre>create teampass character set utf8 collate utf8_bin;</pre>
+* Create the TeamPass database: <br/><pre>create database teampass character set utf8 collate utf8_bin;</pre>
 
 # Set the database Administrator
 
