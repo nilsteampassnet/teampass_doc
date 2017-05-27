@@ -44,6 +44,36 @@ The Items are shown in a table format in which you can perform a search using a 
 
 ![Screenshot](../img/feat-item-7.png)
 
+# Adding a new Item
+
+If you have the privilege, you can **add** a new Item. 
+
+* Select the Folder you want the Item to be added in
+* Click the Items List menu button
+* Select `Add Item`
+
+![Screenshot](../img/feat-item-29.png)
+
+A dialogbox will permit you to define your new Item.
+
+![Screenshot](../img/feat-item-31.png)
+
+Notice in top of the dialogbox, the name of Groups that can access this new Item.
+
+
+# Editing an Item
+
+If you have the privilege, you can **edit** an existing Item. 
+
+* Select the Folder you want the Item to be edited
+* Click the Items List menu button
+* Select `Edit Item`
+
+![Screenshot](../img/feat-item-30.png)
+
+Edit the Item with the opened dialogbox.
+
+
 # Attach files to Item
 
 You can attach files to your item. In case it is an image, Teampass displays it through a Viewer.
@@ -71,6 +101,20 @@ It is possible to:
 * resize the image
 
 ![Screenshot](../img/feat-item-11.png)
+
+# Item History
+
+Any action performed on an Item is logged in the database with the date/hour, the User and the action.
+Accessing to the Item History is acheived as below:
+
+* Open an Item
+* Select `History` in the Item Menu button
+
+![Screenshot](../img/feat-item-27.png)
+
+The Audit Trail is shown in a specific dialogbox.
+
+![Screenshot](../img/feat-item-28.png)
 
 # Delete an Item
 
