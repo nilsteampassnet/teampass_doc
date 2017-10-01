@@ -63,3 +63,7 @@ Set privileges to user
 
 * With your favorite web browser, get to `http://<your_teampass_url>`
 * Follow instruction given by the installation script
+
+# On IIS server be sure to use slashes in path
+
+During the setup wizard, use C:/www/website and also c:/path-to-salt rather than c:\path-to-salt or c:\www\website.
