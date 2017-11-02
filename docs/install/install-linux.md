@@ -19,7 +19,12 @@ In addition to the Apache web server, the following PHP extensions are required 
 
 On a Debian GNU/Linux system:
 
-<pre># apt-get install task-web-server php5-mysql php5-mcrypt php5-mbstring php5-fpm php5-iconv php5-xml php5-gd openssl php5-mysqlnd</pre>
+<pre># sudo apt-get install task-web-server php5-mysql php5-mcrypt php5-mbstring php5-fpm php5-iconv php5-xml php5-gd openssl php5-mysqlnd</pre>
+
+```
+sudo apt-get update
+sudo apt-get install php7.1-mysql php7.1-mcrypt php7.1-mbstring php7.1-fpm php7.1-common php7.1-xml php7.1-gd openssl php7.1-mysql php7.1-bcmath
+```
 
 **Edit PHP.ini to increase max_execution_time**:
 
@@ -101,6 +106,10 @@ chmod -R 0777 teampass/backups
 chmod -R 0777 teampass/files
 chmod -R 0777 teampass/install
 chmod -R 0777 teampass/upload
+```
+You may also use directly
+```
+sudo chmod 0777 install/ includes/ includes/config/ includes/avatars/ includes/libraries/csrfp/libs/ includes/libraries/csrfp/js/ includes/libraries/csrfp/log/ files/ upload/
 ```
 
 # Finish the TeamPass installation
