@@ -1,4 +1,4 @@
-__Valid since 2.1.27 release
+__Valid since 2.1.27 release__
 
 # Upgrade Teampass to a new release
 
@@ -10,15 +10,11 @@ It is recommended to install the latest Teampass release.
 
 The next described protocol is a recommended one.
 
-* Start by creating a dump of your database
-* Rename the current Teampass folder (example: `Teampass_old`)
+* Create a dump of your database
+* Perform a zip of the current Teampass folder
+* Make a copy of teampass-seckey.txt (even if the upgrade process will perform one too)
 * Download lastest package on your server,
-* Unzip package into `Teampass` folder (could be another name),
-* Copy from `Teampass_old` to `Teampass` folder:
-	* the file `/includes/config/settings.php`
-	* the file `/includes/config/tp.config.php`
-	* the file `/includes\libraries\csrfp\libs\csrfp.config.php`
-	* the folders `backups`, `files` and `upload`
+* Unzip package into `Teampass` folder (could be another name) and overwrite existing files and folders,
 * Enter url `http://your_domain/teampass/install/upgrade.php`
 * Now follow the upgrade pages
 
