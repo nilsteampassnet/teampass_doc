@@ -4,6 +4,13 @@ The FAQ page helps you with classical questions you may have.
 
 ---
 
+#### Error 500
+One possible cause of an Error 500 is a bad configuration of the url in CSRFProtector library.
+* Open `includes/libraries/csrfp/libs/csrfp.config.php`
+* Ensure that variable `jsUrl` fits your domain and puts on csrfprotector.js file.
+* Save
+* Open Teampass page
+
 
 #### How to set Teampass under Maintenance?
 * Open `Settings` page	
