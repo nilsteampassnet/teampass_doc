@@ -33,10 +33,12 @@ pages:
     - 'Folders': 'manage/manage-folders.md'
     - 'Groups': 'manage/manage-groups.md'
     - 'Users': 'manage/manage-users.md'
+- Help:
+	- 'Common Questions': 'faq.md',
+    - 'Common Errors': 'errors.md'
 - API:
     - 'Reading items': 'api/api-read.md'
     - 'Writing items': 'api/api-write.md'
     - 'Miscellaneous': 'api/api-special.md'
 - Teampass-Connect:
     - 'Usage': 'tpc/index.md'
-- FAQ: 'faq.md'
