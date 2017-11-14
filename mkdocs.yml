@@ -34,7 +34,7 @@ pages:
     - 'Groups': 'manage/manage-groups.md'
     - 'Users': 'manage/manage-users.md'
 - Help:
-	- 'Common Questions': 'faq.md'
+    - 'Common Questions': 'faq.md'
     - 'Common Errors': 'errors.md'
 - API:
     - 'Reading items': 'api/api-read.md'
