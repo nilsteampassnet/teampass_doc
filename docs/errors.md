@@ -15,5 +15,5 @@ In this example, we will considere that Teampass is hosted at `https://my.domain
 ### CSRFProtector settings
 
 * With a shell, open file `<path to teampass folder>/includes/libraries/csrfp/libs/csrfp.config.php`
-* Check variable `jsUrl`, it must fir the complete URL too.
+* Check variable `jsUrl`, it must contain the complete URL too.
 ![Screenshot](../img/error-2.png)
