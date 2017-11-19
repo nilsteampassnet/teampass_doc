@@ -37,8 +37,8 @@ Increase the `maxQueryString` config value from 2048 (default) to **4096**.
 
 * Open the website in IIS Manager,
 * Click Configuration Editor,
-* Browse to the system.webServer/security/requestFiltering section at the top,
-* Click requestLimits in the table below,
+* Browse to the **system.webServer/security/requestFiltering** section at the top,
+* Click **requestLimits** in the table below,
 * Identify **maxQueryString** value.
 
 ![Screenshot](img/error-3.png)
