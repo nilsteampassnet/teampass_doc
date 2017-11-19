@@ -4,6 +4,8 @@ Teampass comes with csrfProtector that protects against Cross Site Request Forge
 
 In this example, we will considere that Teampass is hosted at `https://my.domain.net/teampass`.
 
+Check the next 2 topics and ensure consistency between the paths you are using.
+
 ### Teampass settings
 
 * Open the `Settings` page (https://my.domain.net/teampass/index.php?page=manage_settings)
@@ -19,3 +21,25 @@ In this example, we will considere that Teampass is hosted at `https://my.domain
 * Check variable `jsUrl`, it must contain the complete URL too.
 
 ![Screenshot](img/error-2.png)
+
+## Users and Folders lists are empty
+
+The symptom is when opening the page `Manage Users` or `Manage Folders`, the page is shown but the list is empty.
+
+**Conditions:**
+
+* Server is **IIS**
+* Error identification shows "query string was too long"
+
+**Solution:**
+
+Increase the `maxQueryString` config value from 2048 (default) to **4096**. 
+
+* Open the website in IIS Manager,
+* Click Configuration Editor,
+* Browse to the system.webServer/security/requestFiltering section at the top,
+* Click requestLimits in the table below,
+* Identify **maxQueryString** value.
+
+![Screenshot](img/error-3.png)
+
