@@ -1,7 +1,7 @@
 
 # Definition
 
-`Custom Fields` is a feature permitting to define your own fields. With the high level of customization, you  can define the exact configuration that fits your needs.
+`Custom Fields` is a feature that permits you to define your own fields. With the high level of customization, you  can define the exact configuration that fits your needs.
 
 The `Custom Fields` are created inside `Custom Category` which are associated to Folders.
 
@@ -56,7 +56,7 @@ You can decide to move the Fields from one Category to another. Do:
 You can decide to organize the Categories in a customer order. For this use the small text box in front of the label and enter a number.
 The Categories will be sorted by number as primary criteria and by alphabetic as second criteria. 
 
-# Associate a Folder to a Category
+# Associate a Folder with a Category
 
 You need to relate the Category to Folders. for this,
 
@@ -65,7 +65,7 @@ You need to relate the Category to Folders. for this,
 * select the Folders you want (multiple selection is possible)
 * click OK button to confirm
 
-The Folders are now associated to the select Category.
+The Folders are now associated with the selected Category.
 
 # Manage Fields
 
@@ -77,10 +77,10 @@ The exact same feature described above are valid for Fields. The unique differen
 
 Adding a new field in a Category is performed as this:
 
-* use the Tree,
-* spot the Category you want to improve,
-* click the icon +,
-* enter the label of the field,
+* use the Tree
+* spot the Category you want to improve
+* click the icon +
+* enter the label of the field
 * confirm with the button
 
 # Field data encryption

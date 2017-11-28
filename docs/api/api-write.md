@@ -1,8 +1,8 @@
 # Overview
 
-The Teampass API permits an access to Teampass databse from a third party application.
+The Teampass API permits access to a Teampass database from a third party application.
 
-The call is performed with a `GET` query and sends back the data at `json` format.
+The call is performed with a `GET` query and sends back the data in `JSON` format.
 
 This page describes how to write data.
 
@@ -17,7 +17,7 @@ Adding a new Item is done through URL:
 ```
 
 `<label>;<password>;<description>;<folder id>;<login>;<email>;<url>;<tags>;<any one can modify>` send as a **base64 encoding** string.
-The separator symbol is the semi-column ` ; `.
+The separator symbol is the semicolon ` ; `.
 
 *Some limitations*:
 
@@ -26,7 +26,7 @@ The separator symbol is the semi-column ` ; `.
 
 Notice that if a similar Label exists, the add request will fail.
 
-The answer sent back looks like this:
+The response body looks like this:
 
 ```yaml
 {
@@ -44,7 +44,7 @@ Updating an existing Item is done through URL:
 ```
 
 With `<label>;<password>;<description>;<folder_id>;<login>;<email>;<url>;<tags>;<any one can modify>` send as a **base64 encoding** string.
-The separator symbol is the semi-column ` ; `.
+The separator symbol is the semicolon ` ; `.
 
 Example:
 ```yaml
@@ -60,9 +60,9 @@ Deleting an Item is done through URL:
 <url to teampass>/api/index.php/delete/item/<item_id1>;<item_id2>?apikey=<valid api key>
 ```
 
-The separator symbol is the semi-column ` ; `.
+The separator symbol is the semicolon ` ; `.
 
-The answer would be `OK` if succeeded or the error if failed.
+The response body will contain `OK` if the request is successful. If the request is unsuccessful, the response body will contain an error message.
 
 # Add new Folder
 
@@ -75,7 +75,7 @@ Adding a new Folder is done through URL:
 With:
 
 * `<title>;<complexity_level>;<parent_id>;<renewal_period>;<personal>` send as a **base64 encoding** string.
-The separator symbol is the semi-column ` ; `.
+The separator symbol is the semicolon ` ; `.
 * `<complexity_level>` is selected between the next values `[0, 25, 50, 60, 70, 80, 90]`
 * `<personal>` takes `0` if public. It takes `1` if it is a personal folder, and in this case `<title>` must be `<user_id>`.
 * `<parent_id>` takes `0` if it is `root level`.
@@ -101,7 +101,7 @@ Updating an existing Folder is done through URL:
 
 With:
 
-* `<title>;<complexity_level>;<renewal_period>` send as a **base64 encoding** string. The separator symbol is the semi-column ` ; `.
+* `<title>;<complexity_level>;<renewal_period>` send as a **base64 encoding** string. The separator symbol is the semicolon ` ; `.
 * `<complexity_level>` is selected between the next values `[0, 25, 50, 60, 70, 80, 90]`
 
 # Delete a Folder
@@ -112,6 +112,6 @@ Deleting a Folder is done through URL:
 <url to teampass>/api/index.php/delete/folder/<folder_id1>;<folder_id2>?apikey=<valid api key>
 ```
 
-The separator symbol is the semi-column ` ; `.
+The separator symbol is the semicolon ` ; `.
 
-The answer would be `OK` if succeeded or the error if failed.
+The response body will contain `OK` if the request is successful. If the request is unsuccessful, the response body will contain an error message.

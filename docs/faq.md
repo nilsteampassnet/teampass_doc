@@ -1,6 +1,6 @@
-# Frequentely Asked Question
+# Frequently Asked Questions
 
-The FAQ page helps you with classical questions you may have.
+The FAQ page helps you with common questions you may have.
 
 ---
 
@@ -21,14 +21,14 @@ One possible cause of an Error 500 is a bad configuration of the url in CSRFProt
 #### I don't see the Import button
 
 The main reason for getting a blank/white page after installation is related `include.php` file.
-Follow next steps to ensure every settings are correct in this file.
+Follow next steps to ensure all settings are correct in this file.
 
 * Open file `includes\include.php` with your favourite editor	
 
 #### Why a blank page after installation?
 
 The main reason for getting a blank/white page after installation is related `include.php` file.
-Follow next steps to ensure every settings are correct in this file.
+Follow next steps to ensure all settings are correct in this file.
 
 * Open file `includes\include.php` with your favourite editor	
 

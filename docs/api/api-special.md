@@ -25,7 +25,7 @@ With:
 Example: https://127.0.0.1/teampass/api/index.php/auth/http/www.zadig-tge.adp.com/U1/test?apikey=chahthait5Aidood6johh6Avufieb6ohpaixain
 ```
  
-The format sent back is JSON.
+The response format is JSON.
 If several entries exist for one URL then all possibilities will be sent back.
  
 ```yaml
@@ -52,11 +52,11 @@ Adding a new User is done through URL:
 <url to teampass>/api/index.php/add/user/<LOGIN>;<NAME>;<LASTNAME>;<PASSWORD>;<EMAIL>;<ADMINISTRATEDBY>;<READ_ONLY>;<ROLE1,ROLE2,...>;<IS_ADMIN>;<ISMANAGER>;<PERSONAL_FOLDER>?apikey=<VALID API KEY>
 ```
 
-`<LOGIN>;<NAME>;<LASTNAME>;<PASSWORD>;<EMAIL>;<ADMINISTRATEDBY>;<READ_ONLY>;<ROLE1,ROLE2,...>;<IS_ADMIN>;<ISMANAGER>;<PERSONAL_FOLDER>` has to be sent as a **base64 encoded string**. The separator symbol is the comma ` ; `.
+`<LOGIN>;<NAME>;<LASTNAME>;<PASSWORD>;<EMAIL>;<ADMINISTRATEDBY>;<READ_ONLY>;<ROLE1,ROLE2,...>;<IS_ADMIN>;<ISMANAGER>;<PERSONAL_FOLDER>` has to be sent as a **base64 encoded string**. The separator symbol is the semicolon ` ; `.
 
 *Some limitations*:
 
-* `ADMINISTRATEDBY`, `READ_ONLY`, `IS_ADMIN`, `ISMANAGER`, `PERSONAL_FOLDER` are boolean and accept value `1` for `TRUE` and value `0` for `FALSE`.
+* `ADMINISTRATEDBY`, `READ_ONLY`, `IS_ADMIN`, `ISMANAGER`, `PERSONAL_FOLDER` are booleans and accept value `1` for `TRUE` and value `0` for `FALSE`.
 
 # Generate a password
 
@@ -71,12 +71,12 @@ With:
 * `<size>` an integer taken from 4 to 50
 * `<secure>` takes `1` if secure password is expected, else it takes `0`
 * `<numerals>` takes `1` if password can contain numerals, else it takes `0`
-* `<capitalize>` takes `1` if password can contain capitalize letters, else it takes `0`
+* `<capitalize>` takes `1` if password can contain capital letters, else it takes `0`
 * `<ambiguous>` takes `1` if password can contain ambiguous letters, else it takes `0`
 * `<symbols>` takes `1` if password can contain symbols, else it takes `0`
 * `<base64 encoded string>` takes `1` if you want the password to be sent back in base64 encoding string. This is mandatory if you ask for symbols.
 
-The format sent back is JSON.
+The response format is JSON.
 ```yaml
 Example: {"password" : "Chohcee7phahTooThoh"}
 ```
@@ -93,7 +93,7 @@ The list is sent back through URL:
 <url to teampass>/api/index.php/info/complexicity_levels_list?apikey=<VALID API KEY>
 ```
 
-The format sent back is JSON.
+The response format is JSON.
 ```yaml
 {
   "0": "Very weak",
@@ -108,13 +108,13 @@ The format sent back is JSON.
 
 # Return Folder information
 
-The Folder information are obtain through URL:
+The Folder information is obtained through URL:
 
 ```yaml
 <url to teampass>/api/index.php/info/folder/<folder_id>?apikey=<VALID API KEY>
 ```
 
-The format sent back is JSON.
+The response format is JSON.
 ```yaml
 {
   "title": "Sub folder name",
@@ -133,7 +133,7 @@ Get API version through URL:
 <url to teampass>/api/index.php/info/version?apikey=<VALID API KEY>
 ```
 
-The format sent back is JSON.
+The response format is JSON.
 
 ```yaml
 {

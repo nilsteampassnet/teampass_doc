@@ -7,13 +7,13 @@ Suggestion System provides the ability to Read-Only users to suggest new Items o
 
 Suggestion System is disabled by default. 
 
-In order to be activated it, an Administrator needs to enable the feature through the Teampass Settings page.
+In order to activate it, an Administrator needs to enable the feature through the Teampass Settings page.
 
 ![Screenshot](../img/feat-sug-1.png)
 
 # Description
 
-As shown in next screen-capture, accessing to Suggestion System page is done using a specific Icon in the top menu bar.
+As shown in the next screen-capture, the Suggestion System page is accessed using a specific Icon in the top menu bar.
 
 ![Screenshot](../img/feat-sug-2.png)
 
@@ -21,7 +21,7 @@ As shown in next screen-capture, accessing to Suggestion System page is done usi
 
 # Main page
 
-It is a classical table view that permits to quickly identify the existing suggestion and to create new suggestions.
+It is a classical table view that permits you to quickly identify the existing suggestion and to create new suggestions.
 
 ![Screenshot](../img/feat-sug-3.png)
 

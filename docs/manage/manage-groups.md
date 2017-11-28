@@ -1,11 +1,11 @@
 # Manage the Groups
 
-A Group contains a set of Users. It permits to ease the administration of access rights on Folders.
+A Group contains a set of Users. It simplifies the administration of access rights on Folders.
 Indeed access rights on Folders are defined by Groups. 
 
 A good practice is to organize the Users Group by team or groups of interest.
 
-	Notice that a User may be associated to several Users Group.
+	Notice that a User may be associated to several User Groups.
 
 # Example
 
@@ -35,7 +35,7 @@ And fill in the form
 About the form:
 
 * The label is the name of the Group.
-* The `Required complexity` corresponds to the minimum password complexity level that a User password (that belong to this Group) needs to fulfil.
+* The `Required complexity` corresponds to the minimum password complexity level that a User password (that belong to this Group) needs to fulfill.
 
 The new Group is now added to the list.
 
@@ -43,17 +43,17 @@ The new Group is now added to the list.
 
 # Edit a Group
 
-To edit, click the `edition icon`.
+To edit, click the `edit icon`.
 
 ![Screenshot](../img/mng-grp-5.png)
 
-And edit it through the dialogbox
+And edit it through the dialog box
 
 ![Screenshot](../img/mng-grp-6.png)
 
 # Delete a Group
 
-To delete, click the `edition icon` and Confirm.
+To delete, click the `edit icon` and Confirm.
 
 ![Screenshot](../img/mng-grp-7.png)
 
@@ -61,7 +61,7 @@ To delete, click the `edition icon` and Confirm.
 
 # Using the rights matrix
 
-The `rights matrix` permits to allow or not the access of Users in a Group to Folders.
+The `rights matrix` permits to allow or deny the access of Users in a Group to Folders.
 
 To ease its understanding, the `rights matrix` uses colors and icons to indicate the specific rights set for a Group on a Folder.
 
@@ -70,7 +70,7 @@ To ease its understanding, the `rights matrix` uses colors and icons to indicate
 * `Green` cell indicates that the Group has access to the Folder
 * `Blue` cell indicates that the Group has access to the Folder but with specific restrictions
 
-Small icons permit to indicate the restrictions in place for a Group on a Folder.
+Small icons indicate the restrictions in place for a Group on a Folder.
 
 ![Screenshot](../img/mng-grp-8.png)
 
@@ -82,7 +82,7 @@ This matrix is very powerful and visible. As you can see in the previous screen-
 
 This feature is disabled by default and is unsecure but it may be helpful.
 
-It's aim is to permit the Users of a Group to have the right to edit/modify all Items they have access to.
+Its aim is to permit the Users of a Group to have the right to edit/modify all Items they have access to.
 It will bypass the settings set for each Item.
 
 	Only activate this for a Group with limited Users.

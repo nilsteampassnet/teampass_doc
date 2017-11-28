@@ -1,10 +1,10 @@
 # User Profile
 
-The `User Profile` dialogbox is used to define a User's settings. Those settings are only applied on the User's account.
+The `User Profile` dialog box is used to define a User's settings. Those settings are only applied on the User's account.
 
 ![Screenshot](../img/feat-prof-1.png)
 
-The dialogbox is as below.
+The dialog box is as below.
 
 ![Screenshot](../img/feat-prof-2.png)
 
@@ -14,7 +14,7 @@ As a User, it is possible to edit and change the next parameters.
 
 ## Email address
 
-Click the `icon pen` at the left of the current email address. Do as explained below.
+Click the `pen icon` at the left of the current email address. Do as explained below.
 
 ![Screenshot](../img/feat-prof-3.png)
 
@@ -22,9 +22,9 @@ Click the `icon pen` at the left of the current email address. Do as explained b
 
 Decide if you want to load the folders Tree in `Full` or `Sequential` way.
 
-`Full` loads the complete folders Tree in one step (it is the recommended setting).
+`Full` loads the complete folders Tree in one step (this is the default recommended setting).
 
-`Sequential` loads the folders Tree when user selects a folder (it is more recommended on big trees).
+`Sequential` loads the folders Tree when user selects a folder (this is the recommended setting for large Trees).
 
 ## Time zone
 
@@ -32,7 +32,7 @@ Select the `Timezone` corresponding to your localisation.
 
 ## Language
 
-Permits to define the language to use in Teampass.
+Permits the User to define the language to use in Teampass.
 
 > Note that you can participate to the translation of Teampass using [Poeditor](https://poeditor.com/projects/view?id=16418).
 
@@ -79,4 +79,4 @@ From Tasks menu, select `Reset my Personal Saltkey` option, and follow instructi
 
 ![Screenshot](../img/feat-prof-7.png)
 
-BE CARREFUL, this task will delete your existing personal items as they are considered as lost because you don't have the personal saltkey anymore.
+BE CAREFUL, this task will delete your existing personal items as they are considered lost because you don't have the personal saltkey anymore.

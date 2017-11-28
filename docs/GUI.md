@@ -1,6 +1,6 @@
 # Menu bar
 
-Depending of the user role has in Teampass, the Menu bar displays icons that leads to specific Teampass features if they are enabled.
+Depending on the role a user has in Teampass, the Menu bar displays icons that lead to specific Teampass features if they are enabled.
 
 In a general manner, clicking on an icon in the menu bar will open a new page giving access to a specific feature.
 
@@ -27,7 +27,7 @@ For example:
 
 Permit to decide if the Folders Tree is loaded in one time, or sequentially.
 
-If you have a big tree, it could be interessant to select the `sequential` mode for performance reasons.
+If you have a big tree, it may be useful to select the `sequential` mode for performance reasons.
 
 ## Time zone
 
@@ -63,7 +63,7 @@ You may change your Saltkey for your personal Items.
 
 For this, you need to enter the current Saltkey and the new one.
 
-By clicking the button `Change`, a script will update all your personal Items with the new saltkey. THis may take a couple of minutes if you have a lot of Items to be re-encrypted.
+By clicking the button `Change`, a script will update all your personal Items with the new saltkey. This may take a couple of minutes if you have a lot of Items to be re-encrypted.
 
 ![Screenshot](img/user-prof-7.png)
 
@@ -71,8 +71,8 @@ By clicking the button `Change`, a script will update all your personal Items wi
 
 In case you have lost your saltkey, you will need to reset it.
 
-This means that you will loose all the passwords related to your personal items. Indeed there is no possible way to retreive them as the user is the owner of the Saltkey.
+This means that you will lose all the passwords related to your personal items. Indeed there is no possible way to retrieve them, as the user is the owner of the Saltkey.
 
-Reseting will permit to allow the user to restart defining the passwords.
+Resetting will permit to allow the user to restart defining the passwords.
 
 ![Screenshot](img/user-prof-8.png)

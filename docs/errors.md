@@ -2,7 +2,7 @@
 
 Teampass comes with csrfProtector that protects against Cross Site Request Forgery mechanisms. Due to this, you must ensure that your Teampass configuration is consistent between all paths.
 
-In this example, we will considere that Teampass is hosted at `https://my.domain.net/teampass`.
+In this example, we will assume that Teampass is hosted at `https://my.domain.net/teampass`.
 
 Check the next 2 topics and ensure consistency between the paths you are using.
 
@@ -13,7 +13,7 @@ Check the next 2 topics and ensure consistency between the paths you are using.
 
 ![Screenshot](img/error-1.png)
 
-> Don't use any redirection. Use only the correct URL in those settings. Otherwize csrfProtector will considere this as an inconsistency and will raise an error.
+> Don't use any redirection. Use only the correct URL in those settings. Otherwize csrfProtector will consider this as an inconsistency and will raise an error.
 
 ### CSRFProtector settings
 
@@ -35,11 +35,11 @@ The symptom is when opening the page `Manage Users` or `Manage Folders`, the pag
 
 Increase the `maxQueryString` config value from 2048 (default) to **4096**. 
 
-* Open the website in IIS Manager,
-* Click Configuration Editor,
-* Browse to the **system.webServer/security/requestFiltering** section at the top,
-* Click **requestLimits** in the table below,
-* Identify **maxQueryString** value.
+* Open the website in IIS Manager
+* Click Configuration Editor
+* Browse to the **system.webServer/security/requestFiltering** section at the top
+* Click **requestLimits** in the table below
+* Identify **maxQueryString** value
 
 ![Screenshot](img/error-3.png)
 

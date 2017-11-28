@@ -1,8 +1,8 @@
 # Overview
 
-The Teampass API permits an access to Teampass database from a third party application.
+The Teampass API permits access to the Teampass database from a third party application.
 
-The call is performed with a `GET` query and sends back the data at `json` format.
+The call is performed with a `GET` query and sends back the data in `JSON` format.
 
 This page describes how to read data.
 
@@ -26,9 +26,9 @@ or
 With
 
 * `<folder id>` is the folder ID
-* The separator symbol is the semi-column ` ; `
+* The separator symbol is the semicolon ` ; `
 
-The format sent back is JSON.
+The response format is JSON.
 
 ```yaml
 {
@@ -54,13 +54,13 @@ To get the information about one specific Item, use URL
 <url to teampass>/api/index.php/read/items/<item id1>;<item id2>;<item id3>?apikey=<valid api key>
 ```
 
-The separator symbol is the semi-column ` ; `.
+The separator symbol is the semicolon ` ; `.
 
 With
 
 * `<item idX>` is the item ID
 
-The format sent back is JSON.
+The response format is JSON.
 
 ```yaml
 {
@@ -97,7 +97,7 @@ To get all the items a user is allowed to access, use URL
 <url to teampass>/api/index.php/read/userpw/<user's login>?apikey=<valid api key>
 ```
 
-The format sent back is JSON.
+The response format is JSON.
 
 ```yaml
 {
@@ -135,7 +135,7 @@ To get all the folders a user is allowed to access, use URL
 <url to teampass>/api/index.php/read/userfolders/<user's login>?apikey=<valid api key>
 ```
 
-The format sent back is JSON.
+The response format is JSON.
 
 ```yaml
 {
@@ -162,20 +162,20 @@ The format sent back is JSON.
 
 # Find items
 
-Search for items is performed with  URL
+Search for items is performed with URL
 
 ```yaml
 <url to teampass>/api/index.php/find/item/<folder id1>;<folder id2>/<searched string>?apikey=<valid api key>
 ```
 
-The separator symbol is the semi-column ` ; `.
+The separator symbol is the semicolon ` ; `.
 
 With
 
 * `<folder idx>` is the folder ID
 * `<searched string>` is the string searched
 
-The answer would be
+The response would be
 
 ```yaml
 {

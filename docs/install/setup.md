@@ -6,7 +6,7 @@ Once Teampass is installed on your server, you need to go through some steps in 
 
 # Pre-requisite
 
-Teampasshas to be installed on a server, and you require the `admin` account.
+Teampass has to be installed on a server, and you require the `admin` account.
 
 # Create Folders
 
