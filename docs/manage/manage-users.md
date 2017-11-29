@@ -23,7 +23,7 @@ Notice that the Administrator has not access to the Items with his "administrato
 
 A Manager in Teampass is a super user that can:
 
-* manage [Folders](./manage-folders.md) (creation, modification and deletion) associated to the [Groups](./manage-groups.md) he has
+* manage [Folders](./manage-folders.md) (creation, modification and deletion) associated to the [Groups](./manage-groups.md) he belongs to
 * manage Users (modification and deletion) on which he is defined as "main administrator"
 * of course, deal with Items
 
@@ -31,13 +31,13 @@ A Manager could be a Team leader.
 
 ## Human Resources
 
-A Human Resources Manager in Teampass has the same rights as a Manager but he can manage all Users independately of his/hers group. 
+A Human Resources Manager in Teampass has the same rights as a Manager but he can manage all Users independately of his/her group. 
 
 Notice that he will be also promoted to Manager role, and that he will not be able to edit existing administrators.
 
 ## User
 
-A User is a normal Teampass user which deal with Items the way defined by Administrator and Manager.
+A User is a normal Teampass user which deals with Items in the way defined by the Administrator and Manager.
 
 # Access to Users Management page
 
@@ -61,7 +61,7 @@ About the form:
 * The `Password` is the one the User will need to use to get connected to Teampass.
 * `Email` is used to some specific feature of Teampass.
 * `User is administrated by` setting is important. By default, Administrators will manage the Users, but you can also decide that this management could be delegated to the Manager of a Role. In this case, select the Role manager.
-* Next 3 settings `Is admin`, `Is Manager` and `Is read only` are related the permission of the User inside Teampass. 
+* Next 3 settings `Is admin`, `Is Manager` and `Is read only` are related to the permission of the User inside Teampass. 
 * If `Personal folder` is ticked, then the Personal Folder for this User will be created.
 * If `Create folder and role for ***` is ticked, then you can imagine what will happen.
 
@@ -69,24 +69,24 @@ The new User is now added to the list.
 
 ![Screenshot](../img/mng-usr-4.png)
 
-You now need to associate this new User to Groups. Click on the `Edit icon` at the left of the User.
+You now need to associate this new User to one or more Groups. Click on the `Edit icon` at the left of the User.
 
 ![Screenshot](../img/mng-usr-5.png)
 
-Perform the change you want on this User using the opening dialogbox.
+Perform the change you want on this User using the dialog box that appears.
 
 ![Screenshot](../img/mng-usr-6.png)
 
 With:
 
-* `Groups` field permits you to select the Groups this user is related to
+* `Groups` field permits you to select the Groups that this user belongs to
 * `Managed by` field permits you to select what Manager (or Administrator) will manage this user.
-* `Allowed Folders` field permits you to select Folders on which the User will have access even if not allowed with the Groups he is associated to (see next chapter for more explanations)
-* `Allowed Folders` field permits you to select Folders on which the User will NOT have access even if the Groups he is associated to allows them (see next chapter for more explanations)
+* `Allowed Folders` field permits you to select Folders to which the User will have access even if not allowed by the Groups he is associated to (see next chapter for more explanations)
+* `Denied Folders` field permits you to select Folders to which the User will NOT have access even if allowed by the Groups he is associated to (see next chapter for more explanations)
 
 # Allowed and Forbidden Folders
 
-Each user is associated to Groups. So it means, he/she can access to the Folders defined through the Group.
+Each user is associated to Groups. This means he/she can access the Folders defined through the Group.
 
 Nevertheless you can decide to allow this User to access other Folders than the one allowed by the Group.
 For this, you need to use setting `Allowed Folders`.
@@ -97,11 +97,11 @@ You can also decide to restrict the access to some Folders using the setting `Fo
 
 # Lock and Delete a User
 
-For some reason, you could need to lock a User. This will prevent the User to get connected to Teampass.
+For some reason, you could need to lock a User. This will prevent the User from connecting to Teampass.
 
 ![Screenshot](../img/mng-usr-7.png)
 
-When a user is locked, a specific red icon appears at the left.
+When a user is locked, this red icon appears at the left:
 
 ![Screenshot](../img/mng-usr-8.png)
 
@@ -128,12 +128,12 @@ The Users Levels are:
 
 # Special actions
 
-Using the selectors, you can also perform quickly the next action on a User.
+Using the selectors, you can quickly perform the following actions on a User.
 
 ![Screenshot](../img/mng-usr-12.png)
 
 * Allow to `create folders on Root level`
-* Enable or not `Personal Folders`
-* Change the `Password`
-* Change the `Email`
+* Enable or disable `Personal Folders`
+* Change the User's `Password`
+* Change the User's `Email`
 * See the `Log`

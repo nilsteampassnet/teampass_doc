@@ -13,17 +13,17 @@ The `Folders Tree` shows the folders the user is allowed to see and access.
 
 > Click a Folder to see the related Items.
 
-Clicking the Folders Menu brings up a list of possible actions. The actions list is depending on the enabled options.
+Clicking the Folders Menu brings up a list of possible actions. The actions list depends on the enabled options.
 
 ![Screenshot](../img/feat-item-3.png)
 
 # Items list
 
-Contains the Items stored in the selected Folder. The list shows the Item label and the Description. For each Item, small icons are displayed permitting to quickly perform actions on the items such as copying in clipboard `Password` and `Login` (if enabled).
+Contains the Items stored in the selected Folder. The list shows the Item label and the Description. For each Item, small icons are displayed allowing you to quickly perform actions on the items such as copying to your clipboard `Password` and `Login` (if enabled).
 
 ![Screenshot](../img/feat-item-4.png)
 
-If allowed to, the user can make a drag and drop to move the Item to another folder.
+A user can move can move an Item to another Folder if the drag and drop capability is enabled for that user.
 
 # Item details
 
@@ -40,7 +40,7 @@ You can perform a search inside a specific page.
 
 ![Screenshot](../img/feat-item-6.png)
 
-The Items are shown in a table format in which you can perform a search using a criteria. This criteria performs the search inside several fields.
+The Items are shown in a table format in which you can perform a search using selected criteria. These criteria perform the search across several fields.
 
 ![Screenshot](../img/feat-item-7.png)
 
@@ -54,11 +54,11 @@ If you have the privilege, you can **add** a new Item.
 
 ![Screenshot](../img/feat-item-29.png)
 
-A dialogbox will permit you to define your new Item.
+A dialog box will permit you to define your new Item.
 
 ![Screenshot](../img/feat-item-31.png)
 
-Notice in top of the dialogbox, the name of Groups that can access this new Item.
+Notice in top of the dialog box, the name of Groups that can access this new Item.
 
 
 # Editing an Item
@@ -71,7 +71,7 @@ If you have the privilege, you can **edit** an existing Item.
 
 ![Screenshot](../img/feat-item-30.png)
 
-Edit the Item with the opened dialogbox.
+Edit the Item with the opened dialog box.
 
 
 # Attach files to Item
@@ -112,7 +112,7 @@ Accessing to the Item History is acheived as below:
 
 ![Screenshot](../img/feat-item-27.png)
 
-The Audit Trail is shown in a specific dialogbox.
+The Audit Trail is shown in a specific dialog box.
 
 ![Screenshot](../img/feat-item-28.png)
 
@@ -155,7 +155,7 @@ To do so:
 
 [Introduced in 2.1.27]
 
-Mass operation permits to select a set of Items and perform a common action on them. Currently, you may either `Move` or `Delete` a selection of Items.
+Mass operation permits you to select a set of Items and perform a common action on them. Currently, you may either `Move` or `Delete` a set of Items.
 
 This feature is only allowed if the setting `Allow user to perform massive move and delete operations` is set to **Yes**.
 
@@ -179,7 +179,7 @@ Select the destination folder and click on OK button.
 
 ![Screenshot](../img/feat-item-19.png)
 
-Wait until the dialogbox is closed.
+Wait until the dialog box is closed.
 
 ## Deleting items
 
@@ -187,7 +187,7 @@ Confirm the deletion by clicking on OK button.
 
 ![Screenshot](../img/feat-item-20.png)
 
-Wait until the dialogbox is closed.
+Wait until the dialog box is closed.
 
 # Suggest an Item change
 
@@ -220,12 +220,12 @@ Click to open the Suggestion view and click the tab `Change proposals`
 This shows all on-going change proposals that are still pending.
 Click the icon to open the details about the change proposal.
 
-The dialog-box shows the current values in the fields for the Item, and the proposed one.
+The dialog box shows the current values in the fields for the Item, and the proposed one.
 The Manager can `Approve` or `Reject` using the buttons.
 
 ![Screenshot](../img/feat-item-25.png)
 
-Notice that the Manager can decide the fields to be updated. Meaning that the user may propose a change on fieds `Login` and `Email`, and the Manager can only accept the `Login` change.
+Notice that the Manager can decide the fields to be updated. Meaning that the user may propose a change on fields `Login` and `Email`, and the Manager can only accept the `Login` change.
 To do so, click on the Green tick to cancel the field change.
 
 ![Screenshot](../img/feat-item-26.png)

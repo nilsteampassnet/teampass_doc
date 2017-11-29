@@ -13,8 +13,8 @@ You can either install each of those components one by one, or directly use a fu
 
 # Activate PHP extensions
 
-* Do a click on the WampServer icon
-* In the dialogbox, select `PHP > PHP extensions` and enable each of the next extensions:
+* Click on the WampServer icon
+* In the dialog box, select `PHP > PHP extensions` and enable each of the following extensions:
   * `mcrypt`
   * `mbstring`
   * `openssl`
@@ -27,12 +27,12 @@ You can either install each of those components one by one, or directly use a fu
 ## Set MySQL database Administrator
 
 * Open PhpMyAdmin (click on the WampServer icon and select PhpMyAdmin)
-* In the 'Create new database' section, enter your database name (for example `teampass`) and select `UTF8_general_ci` as collation.
+* In the 'Create new database' section, enter your database name (for example 1teampass`) and select `UTF8_general_ci` as collation.
 * Click on `Create` button
 
 #Set MySQL database Administrator
 
-We'll now create a specific Administrator to this database
+We'll now create a specific Administrator for this database
 
 * Click on 'localhost' in order to get back to home page
 * Select 'Privileges' tab
@@ -62,7 +62,7 @@ Set privileges to user
 # Ready to install TeamPass
 
 * With your favorite web browser, get to `http://<your_teampass_url>`
-* Follow instruction given by the installation script
+* Follow instructions given by the installation script
 
 # On IIS server be sure to use slashes in path
 

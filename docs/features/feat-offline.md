@@ -1,9 +1,9 @@
 
 # Offline mode
 
-Teampass can be be used in an Offline mode. In such case, it is only a `Read-only` mode.
+Teampass can be used in an Offline mode. In such case, it is only a `Read-only` mode.
 
-Considere the `Offline mode` as an export of Items inside an HTML page which can be used through any kind of web-browser.
+Consider the `Offline mode` as an export of Items inside an HTML page which can be used through any kind of web-browser.
 
 	The exported Items are encrypted using a passkey given by the User.
     
@@ -23,11 +23,11 @@ Now select the Folders you want to export and the salt. Then press the button `G
 
 ![Screenshot](../img/feat-offline-3.png)
 
-The export is on-going. Please wait until `Download file` message appear. Notice that this sequence could take time.
+The export is ongoing. Please wait until `Download file` message appear. Notice that this sequence could take time.
 
 Download the file and store it.
 
-## Using the Off-line mode
+## Using the Offline mode
 
 Just open the downloaded file with your web browser. In the page, enter the salt you used for exporting.
 

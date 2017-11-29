@@ -35,7 +35,7 @@ The new Folder created is now in the list.
 
 # Edit a Folder
 
-You can at any moment edit a folder. Click the folder you want to edit and the edition dialog-box will be shown.
+You can at any moment edit a folder. Click the folder you want to edit and the editing dialog box will be shown.
 
 ![Screenshot](../img/mng-fld-7.png)
 
