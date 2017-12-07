@@ -43,3 +43,17 @@ Increase the `maxQueryString` config value from 2048 (default) to **4096**.
 
 ![Screenshot](img/error-3.png)
 
+## Users session expires too early
+
+The sympthom is that user session is automatically closed before the expected delay.
+The user is redirected to a page that potentially indicates "Hacking attempt ...".
+
+**Solution:**
+
+Increase the `session.gc_maxlifetime` config value inside `php.ini` file. 
+
+* Open in edition the file `php.ini`
+* Search for variable `session.gc_maxlifetime` (in an enchanged php.ini file, the complete line is `session.gc_maxlifetime = 1440`)
+* Value `1440` corresponds to a session time of 24 minutes.
+* As a suggestion, set it to `7200` for a 2 hours and adapt to fit the common usage of your users.
+* Restart the Apache service.
