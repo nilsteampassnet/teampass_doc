@@ -77,6 +77,6 @@ Be patient until the message `Done` appears. The page will then be reloaded auto
 
 From Tasks menu, select `Reset my Personal Saltkey` option, and follow instruction below.
 
-![Screenshot](../img/feat-prof-7.png)
+![Screenshot](../img/feat-prof-8.png)
 
 BE CAREFUL, this task will delete your existing personal items as they are considered lost because you don't have the personal saltkey anymore.
