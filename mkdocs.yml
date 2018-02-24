@@ -29,6 +29,7 @@ pages:
     - 'On Windows server': 'install/install-windows.md'
     - 'Initial setup': 'install/setup.md'
     - 'Upgrade': 'install/upgrade.md'
+    - 'Advanced setup': 'install/ldap.md'
 - Manage:
     - 'Folders': 'manage/manage-folders.md'
     - 'Groups': 'manage/manage-groups.md'
