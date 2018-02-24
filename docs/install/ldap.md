@@ -39,13 +39,17 @@ As an example, you could define a LDAP group called `teampass` and indicate it h
 > The bindDN usually comes with a password associated with it.
 
 `LDAP search base`
-> Th
+> Indicate the LDAP tree to be used as base to perform search.
+In our case, we indicated the full tree.
 
 `LDAP domain controller(s)`
-> Th
+> Specify the domain to reach your LDAP. If you have several domains, you may indicate them separated by a comma symbol.
 
 `LDAP port`
-> Th
+> This is the port for reaching your LDAP server.
 
-`LDAP domain controller(s)`
-> Th
+`Newly created user is administrated by`
+> Indicate what manager will be in charge of administrating a newly created user.
+
+`Newly created user has role`
+> Indicate what Role inherits the user when its account is created.
