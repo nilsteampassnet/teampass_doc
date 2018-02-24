@@ -22,16 +22,30 @@ This should be adapted to fit your LDAP server configuration
 In our case the FQDN is `ldap.test.local`.
 
 `Class to search`
-> Use inetorgperson.
+> Use inetorgperson for example.
 
 `User attribute to search`
-> Use the attribute used in your ldap server to identify users.
+> Use the attribute used in your ldap server to identify users. Could be set to `iud`.
 
 `LDAP group to search`
-> Is optional. Leave it empty if any
+> Is optional. Leave it empty if users in any LDAP groups can authenticate in Teampass.
+If you want to restraint the authentication in Teampass to a specific LDAP group, indicate it here.
+As an example, you could define a LDAP group called `teampass` and indicate it here.
 
-`Class to search`
-> Use 
+`LDAP bind DN`
+> The bindDN DN is basically the credential you are using to authenticate against an LDAP.
 
-`Class to search`
-> Use 
+`LDAP bind password`
+> The bindDN usually comes with a password associated with it.
+
+`LDAP search base`
+> Th
+
+`LDAP domain controller(s)`
+> Th
+
+`LDAP port`
+> Th
+
+`LDAP domain controller(s)`
+> Th
