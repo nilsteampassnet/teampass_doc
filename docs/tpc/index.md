@@ -49,3 +49,20 @@ TeampassConnect needs:
 - a valid license usage
 - the credentials of a valid User in Teampass server with a valid Teampass API key
 
+To setup TeampassConnect:
+
+- Click the icon ![Screenshot](../img/tpc-icon.png)
+- Select Settings button ![Screenshot](../img/tpc-menu-settings.png)
+
+### Enter license
+
+Enter the Key and the Code
+
+![Screenshot](../img/tpc-settings-trial.png)
+
+In case you don't have any license yet, click on `Request trial codes` and fill in the form.
+
+> A valid email is 
+
+
+### Enter User Credentials
