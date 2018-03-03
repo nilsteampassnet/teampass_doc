@@ -42,4 +42,4 @@ pages:
     - 'Writing items': 'api/api-write.md'
     - 'Miscellaneous': 'api/api-special.md'
 - Teampass-Connect:
-    - 'Usage': 'tpc/index.md'
+    - 'Overview': 'tpc/index.md'
