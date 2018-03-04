@@ -52,7 +52,7 @@ TeampassConnect needs:
 To setup TeampassConnect:
 
 - Click the icon ![Screenshot](../img/icon-16.png)
-- Select Settings button ![Screenshot](../img/tpc-settings-menu.png)
+- Select Settings button ![Screenshot](../img/tpc-menu-settings.png)
 
 ### Enter license
 
