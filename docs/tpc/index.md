@@ -11,6 +11,21 @@ By this, from the browser it is possible to interact with the Items in Teampass 
 
 ## Overview
 
+TeampassConnect relies on the usage of one screen presenting 4 buttons.
+
+![Screenshot](../img/tpc-menu.png)
+
+`SEARCH` permits to perform a search inside the Teampass database
+
+`GRAB` permits to collect credentials from a login form on the active webpage the user is browsing
+
+`SETTINGS` permits to define the settings you want to use
+
+`ABOUT` gives you some information about this extension
+
+
+## Main Features
+
 TeampassConnect provides next functions:
 
 - Connect the browser with user's Teampass account
@@ -30,6 +45,3 @@ TeampassConnect requires next conditions:
 - Firefox minimum version: 57
 - Valid user license (trial license can be obtained)
 - API feature to be enabled in Teampass
-
-
-
