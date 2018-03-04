@@ -43,3 +43,5 @@ pages:
     - 'Miscellaneous': 'api/api-special.md'
 - Teampass-Connect:
     - 'Overview': 'tpc/index.md'
+    - 'Installation': 'tpc/install.md'
+    - 'Usage': 'tpc/usage.md'
