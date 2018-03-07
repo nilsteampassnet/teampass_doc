@@ -53,3 +53,15 @@ In our case, we indicated the full tree.
 
 `Newly created user has role`
 > Indicate what Role inherits the user when its account is created.
+
+## More debug
+
+If you cannot made testing connection successfull, you can enable a debug mode that will generate a debug text file.
+
+To do so:
+- open file `/sources/identify.php`
+- search for `$debugLdap = 0;` at the top of the file
+- change its value from `0` to `1`
+- try to log
+- open the generated log file `/files/ldap.debug.txt`
+- identify possible issue
