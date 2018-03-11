@@ -8,13 +8,15 @@ The FAQ page helps you with common questions you may have.
 
 Since 2.1.27(.18), it is possible to report a bug with data generated out of Teampass. Use either
 * icon from Footer
-![Screenshot](../img/faq-1.png)
+
+![Screenshot](img/faq-1.png)
 * button from Profile dialogbox
-![Screenshot](../img/faq-2.png)
+
+![Screenshot](img/faq-2.png)
 
 In both cases, it will display the bug form. Follow instruction:
 
-![Screenshot](../img/faq-3.png)
+![Screenshot](img/faq-3.png)
 
 
 #### Error 500
