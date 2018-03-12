@@ -19,6 +19,21 @@ In both cases, it will display the bug form. Follow instruction:
 ![Screenshot](img/faq-3.png)
 
 
+#### JSON error while importing CSV file
+
+Possible reason is the CSV file presentation.
+
+Example of how a csv file should be structured.
+
+```
+label,login,password,url,comments
+"Lo'&`égan","MyLog'an","YoupiCheap","http://www.logan.fr",""
+"Logan2","MyLogan2","YoupiCheap2","http://www.logan2.fr",""
+"#1866-1","MyLogan2","YoupiCheap2","http://195.218.52.38",""
+"#186-2","MyLogan2","YoupiCheap2","",""
+```
+
+
 #### Error 500
 One possible cause of an Error 500 is a bad configuration of the url in CSRFProtector library.
 * Open `includes/libraries/csrfp/libs/csrfp.config.php`
