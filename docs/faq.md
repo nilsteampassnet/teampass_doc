@@ -19,6 +19,17 @@ In both cases, it will display the bug form. Follow instruction:
 ![Screenshot](img/faq-3.png)
 
 
+#### How to capture query error from the browser console?
+
+In case of defect identified while using Teampass, it is recommanded to capture the query error inside the web console.
+For this you need to do:
+
+- while using your internet browser, press keys CTRL + SHIFT + i (this will open the console dialogbox)
+- select tab `Network`
+- select tab 'Response"
+- identify the query that leads to an error
+- copy the full message
+
 #### JSON error while importing CSV file
 
 Possible reason is the CSV file presentation.
