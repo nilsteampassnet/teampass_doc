@@ -30,6 +30,10 @@ For this you need to do:
 - identify the query that leads to an error
 - copy the full message
 
+![Screenshot](img/faq-4.png)
+
+
+
 #### JSON error while importing CSV file
 
 Possible reason is the CSV file presentation.
