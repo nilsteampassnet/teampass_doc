@@ -24,16 +24,13 @@ This CSV file needs to respect next rules:
 * Expected columns are: `Label` , `Login` , `Password` , `URL` , `Comments`.
 
 An example of CSV file could be:
-
-   label,login,password,url,comments
-   
-   "Lo'&`égan","MyLog'an","YoupiCheap","http://www.logan.fr",""
-   
-   "Logan2","MyLogan2","YoupiCheap2","http://www.logan2.fr",""
-   
-   "#1866-1","MyLogan2","YoupiCheap2","http://195.218.52.38",""
-   
-   "#186-2","MyLogan2","YoupiCheap2","",""
+```
+label,login,password,url,comments
+"Lo'&`égan","MyLog'an","YoupiCheap","http://www.logan.fr",""
+"Logan2","MyLogan2","YoupiCheap2","http://www.logan2.fr",""
+"#1866-1","MyLogan2","YoupiCheap2","http://195.218.52.38",""
+"#186-2","MyLogan2","YoupiCheap2","",""
+```
 
 ### Start importation
 
