@@ -44,10 +44,17 @@ An example of CSV file could be:
 
 4. Click `Import` button
 
-5. Imported Items will be strikethroughed
+5. Imported Items will be strikethroughed in the dialogbox
 
 ![capture]({{site.baseurl}}/img/impexp-4.png)
 
+6. Items are now in the destination folder
+
+![capture]({{site.baseurl}}/img/impexp-5.png)
+
 
 > You may perform the importation in several steps if you need to import Items in different destination folders.
+
+## From Keepass
+
 
