@@ -59,6 +59,7 @@ In our case, we indicated the full tree.
 If you cannot made testing connection successfull, you can enable a debug mode that will generate a debug text file.
 
 To do so:
+
 - open file `/sources/identify.php`
 - search for `$debugLdap = 0;` at the top of the file
 - change its value from `0` to `1`
