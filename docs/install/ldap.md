@@ -3,11 +3,20 @@
 Users authentication can be done through LDAP.
 
 Teampass proposes the next setups:
+
 - Windows / Active Directory
 - Posix / OpenLDAP (RFC2307)
 - Posix / OpenLDAP (RFC2307) Search Based
 
 This page describes the setup using `Posix / OpenLDAP (RFC2307) Search Based`.
+
+## Starting LDAP configuration
+
+It is required to login with a User with `Administrator` role.
+
+Select `Settings` menu icon, then click tab `LDAP`, and finally click on `Yes` to access the LDAP configuration form.
+
+![Screenshot](../img/ins-ldap-2.png)
 
 The next settings form is given as an example
 
