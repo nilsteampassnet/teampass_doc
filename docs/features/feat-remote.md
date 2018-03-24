@@ -60,4 +60,20 @@ Teampass will perform the following:
 * Generate a new automatic complex password (if you decided to go on with automatic mode)
 * Launch a Linux command to change the password of the user
 * Close SSH connection
-* Store the new password in database (if you decided to go on with automatic mode)
+* Store the new password in database
+
+# Plan a monthly change
+
+	This feature permits to change a User password on a monthly base.
+
+To do this, follow next steps:
+
+1. Follow previous steps 1 and 2
+
+2. Select tab `Scheduled change`
+
+![](../img/feat-ssh-4.png)
+
+3. Select the automatic frequency update
+
+4. Now it is required to update the cron tab on your Teampass server to add a task to execute daily the file `./backups/qcript.ssh.php`.
