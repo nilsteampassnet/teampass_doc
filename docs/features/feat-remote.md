@@ -26,7 +26,7 @@ Then enable it.
 
 To do this, follow next steps:
 
-1. Select Item
+1- Select Item
 
 ![](../img/feat-ssh-2.png)
 
@@ -35,17 +35,17 @@ You must ensure that:
 - `login` is the user login on this server
 - `url` is with formalism: `ssh://<ip>:<port>`
 
-2. Select `Update server passowrd` from the Item menu
+2- Select `Update server passowrd` from the Item menu
 
 ![](../img/feat-ssh-3.png)
 
-3. Select tab `One-time change`
+3- Select tab `One-time change`
 
 ![](../img/feat-ssh-4.png)
 
-4. If this user doesn't have the privileges on the Linux server to update his passowrd, please provide the credentials with those priviles.
+4- If this user doesn't have the privileges on the Linux server to update his passowrd, please provide the credentials with those priviles.
 
-5. Click `Start` when ready to perform the change
+5- Click `Start` when ready to perform the change
 
 ![](../img/feat-ssh-6.png)
 
@@ -68,12 +68,12 @@ Teampass will perform the following:
 
 To do this, follow next steps:
 
-1. Follow previous steps 1 and 2
+1- Follow previous steps 1 and 2
 
-2. Select tab `Scheduled change`
+2- Select tab `Scheduled change`
 
 ![](../img/feat-ssh-4.png)
 
-3. Select the automatic frequency update
+3- Select the automatic frequency update
 
-4. Now it is required to update the cron tab on your Teampass server to add a task to execute daily the file `./backups/qcript.ssh.php`.
+4- Now it is required to update the cron tab on your Teampass server to add a task to execute daily the file `./backups/qcript.ssh.php`.
