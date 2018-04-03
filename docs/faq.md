@@ -79,10 +79,10 @@ Follow next steps to ensure all settings are correct in this file.
 
 ### What should I backup?
 
-The 2 elements to store and backup are:
+The 3 elements to store and backup are:
 
 * the database
-* the file `teampass-seckey.txt`
+* the files `teampass-seckey.txt` and `sk.php`
 
 
 #### Line 14 @define('SECUREPATH', ...)
