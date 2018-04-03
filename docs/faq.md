@@ -77,6 +77,14 @@ Follow next steps to ensure all settings are correct in this file.
 
 * Open file `includes\include.php` with your favourite editor	
 
+### What should I backup?
+
+The 2 elements to store and backup are:
+
+* the database
+* the file `teampass-seckey.txt`
+
+
 #### Line 14 @define('SECUREPATH', ...)
 
 It defines the path to the secured folder you have indicated during installation.
