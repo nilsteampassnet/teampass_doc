@@ -34,6 +34,7 @@ pages:
     - 'Folders': 'manage/manage-folders.md'
     - 'Groups': 'manage/manage-groups.md'
     - 'Users': 'manage/manage-users.md'
+    - 'Options': 'manage/misc-options.md'
 - Help:
     - 'Common Questions': 'faq.md'
     - 'Common Errors': 'errors.md'
