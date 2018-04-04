@@ -19,6 +19,7 @@ pages:
     - 'Custom fields': 'features/feat-custf.md'
     - 'Suggestion': 'features/feat-sug.md'
     - 'Offline mode': 'features/feat-offline.md'
+    - 'Expiration': 'features/feat-expi.md'
     - 'Encryption': 'features/feat-encrypt.md'
     - 'Import & Export': 'features/feat-impexp.md'
     - 'Remote server': 'features/feat-remote.md'
