@@ -32,6 +32,16 @@ You need to think about a global strategy relating the Folders, Groups and Users
 
 Refer to page [Manage Users](../manage/manage-users.md).
 
+# Allow users to get connected
+
+Finally you need to allow the users to get connected to Teampass.
+
+For this you need to remove the `maintenance mode`.
+
+Logged as an Administrator, select the `Settings` page, and move the maintenance button on `No`.
+
+![](../img/set-1.png)
+
 # Administrator account
 
 	Remember that an Administrator has no access to Items.
