@@ -8,6 +8,19 @@ This page describes how to write data.
 
 	"Note:" In this page, <valid api key> is the API key you received from your administrator.
 
+# Information about base64_enconding
+
+Sent data is done through usage of base64 encoded data.
+
+Nevertheless you muse ensure that the encoded data doesn'`include the chatacters ` + ` and ` / `. 
+They need to be replace by ` - ` and ` _ `.
+This will guarantee that the URL sent is not broken by a reserved characted inside the URL.
+
+Consequence: Please ensure that the substitution is performed inside the base64 encoded string:
+
+- ` + ` is replaced by ` - `
+- ` / ` is replaced by ` _ `
+
 # Add new Item
 
 Adding a new Item is done through URL:
