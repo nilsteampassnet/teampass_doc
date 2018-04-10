@@ -12,7 +12,7 @@ This page describes how to write data.
 
 Sent data is done through usage of base64 encoded data.
 
-Nevertheless you muse ensure that the encoded data doesn'`include the chatacters ` + ` and ` / `. 
+Nevertheless you muse ensure that the encoded data doesn't `include the chatacters ` + ` and ` / `. 
 They need to be replace by ` - ` and ` _ `.
 This will guarantee that the URL sent is not broken by a reserved characted inside the URL.
 
