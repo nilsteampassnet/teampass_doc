@@ -160,6 +160,56 @@ The response format is JSON.
 }
 ```
 
+# List items's file attachments
+
+To get all the files attached to an item, use URL
+
+```yaml
+<url to teampass>/api/index.php/read/listfiles/<item_id>?apikey=<valid api key>
+```
+
+The response format is JSON.
+
+```yaml
+{
+  "1" : {
+      "id"     : "1",
+      "type" : "image/jpeg",
+      "name" : "image.jpg",
+      "extension" : "jpg",
+      "size" : "47314"
+   },
+   "2" : {
+      "id"     : "2",
+      "name" : "text.txt",
+      "type" : "text/plain",
+      "size" : "50546",
+      "extension" : "txt"
+   },
+   "3" : {
+      "id"     : "3",
+      "name" : "image2.jpg",
+      "type" : "image/jpeg",
+      "size" : "46911",
+      "extension" : "jpg"
+   }
+}
+```
+
+# Download items's file attachments
+
+To download a file attached to an item, use URL
+
+```yaml
+<url to teampass>/api/index.php/read/files/<file_id>?apikey=<valid api key>
+```
+
+```yaml
+Example: curl -X GET "https://127.0.0.1/teampass/api/index.php/read/files/32?apikey=chahthait5Aidood6johh6Avufieb6ohpaixain" -o file.txt
+```
+
+The response format is binary file data.
+
 # Find items
 
 Search for items is performed with URL

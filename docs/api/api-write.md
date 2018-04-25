@@ -12,7 +12,7 @@ This page describes how to write data.
 
 Sent data is done through usage of base64 encoded data.
 
-Nevertheless you muse ensure that the encoded data doesn't `include the chatacters ` + ` and ` / `. 
+Nevertheless you muse ensure that the encoded data doesn't `include the chatacters ` + ` and ` / `.
 They need to be replace by ` - ` and ` _ `.
 This will guarantee that the URL sent is not broken by a reserved characted inside the URL.
 
@@ -128,3 +128,53 @@ Deleting a Folder is done through URL:
 The separator symbol is the semicolon ` ; `.
 
 The response body will contain `OK` if the request is successful. If the request is unsuccessful, the response body will contain an error message.
+
+# Add new file attachment
+
+Adding a new file is done by sending a POST request through URL:
+
+```yaml
+<url to teampass>/api/index.php/add/file?apikey=<valid api key>
+```
+
+Notes:
+* The request format must be according to RFC 2388
+* The Content-Type header value must be 'multipart/form-data'
+
+You must send two data fields in the POST body:
+* `item_id` : The item id to which the file will be attached
+* `file`    : The file data. Use parameter 'filename' to set the file name for the attachment
+
+```yaml
+Example: curl -X POST "http://127.0.0.1/teampass/api/index.php/add/file?apikey=chahthait5Aidood6johh6Avufieb6ohpaixain" -F "file=@text.txt;filename=text.txt" -F "item_id=9"
+```
+
+```yaml
+POST /teampass/api/index.php/add/file/1?apikey=chahthait5Aidood6johh6Avufieb6ohpaixain HTTP/1.1
+Host: 127.0.0.1
+Content-Type: multipart/form-data; boundary="boundary"
+
+--boundary
+Content-Disposition: form-data; name="item_id"
+
+9
+--boundary
+Content-Disposition: form-data; name="file"; filename="text.txt"
+Content-Type: text/plain
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+est laborum
+```
+
+The response body looks like this:
+
+```yaml
+{
+	"status" : "success"
+}
+```
