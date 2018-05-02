@@ -70,6 +70,43 @@ Inside the DUOSecurity interface select the Users menu and create a new user for
   
   Now your users will have to connect by indicating their login and password, and through DUOSecurity (and especially `DuoPush` feature) to get authenticated in Teampass.
 
+# Secure login with U2F and YUBIKO key
+
+[yubico.com](https://www.yubico.com/)
+
+> Introduced in 2.1.27
+
+ ## Enable U2F in Teampass
+ 
+  * Login in Teampass with an Administrator account.
+  * Open `Settings` page
+  * Select tab `2FA options`
+  * Enable `Yubico` by selecting option `Yes`
+  
+  As a consequence, all users will have to use their credentials and associate their U2F Yubico key one time salt.
+  
+## Getting authenticated with U2F Yubico key
+
+* On the home page, fill in the credentials, set focus on Yubico field and press the Yubico key
+
+![Screenshot](../img/feat-u2f-1.png)
+
+You will be automatically logged in Teampass
+
+  
+## User first connection with U2F Yubico key
+
+The first time a user will use his U2F Yubico key, he will have to enrol it.
+
+* A special form will be displayed asking for Yubico credentials
+* Indicate your `Client ID` and `Secret Key`
+* Set focus on Yubico key and press your Yubico key
+
+![Screenshot](../img/feat-u2f-2.png)
+
+This will finalize your Yubico key enrolement.
+
+
 # Securize login with AGSES
 
 [agses.net](https://agses.net/)
@@ -113,4 +150,3 @@ Then go to next step.
 If you need to change your AGSES Card ID, open your profile and change it.
 
 ![Screenshot](../img/feat-2fa-4.png)
-
