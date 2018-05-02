@@ -79,10 +79,14 @@ Follow next steps to ensure all settings are correct in this file.
 
 ### What should I backup?
 
-The 3 elements to store and backup are:
+In order to restore a Teampass instance (in case of emergency), it is highly suggested to follow next recommandation:
 
-* the database
-* the files `teampass-seckey.txt` and `sk.php`
+* after installing Teampass, perform a backup of files:
+  * `teampass-seckey.txt` - to be backuped each time you change the saltkey
+  * `sk.php` - can be backuped every day or on on change
+  * `includes\libraries\csrfp\libs\csrfp.config.php` - to be backuped on change
+* perform a daily backup of Teampass database (using a daily task - Teampass helps you to do this - refer to settings page)
+* at least perform a daily backup of folder `upload`, or even better of the complete Teampass folder
 
 
 #### Line 14 @define('SECUREPATH', ...)
