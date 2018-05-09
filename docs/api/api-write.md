@@ -12,7 +12,7 @@ This page describes how to write data.
 
 Sent data is done through usage of base64 encoded data.
 
-Nevertheless you muse ensure that the encoded data doesn't `include the chatacters ` + ` and ` / `. 
+Nevertheless you muse ensure that the encoded data doesn't `include the chatacters ` + ` and ` / `.
 They need to be replace by ` - ` and ` _ `.
 This will guarantee that the URL sent is not broken by a reserved characted inside the URL.
 
@@ -29,8 +29,8 @@ Adding a new Item is done through URL:
 <url to teampass>/api/index.php/add/item/<label>;<password>;<description>;<folder id>;<login>;<email>;<url>;<tags>;<any one can modify>?apikey=<valid api key>
 ```
 
-`<label>;<password>;<description>;<folder id>;<login>;<email>;<url>;<tags>;<any one can modify>` send as a **base64 encoding** string.
-The separator symbol is the semicolon ` ; `.
+`<label>;<password>;<description>;<folder id>;<login>;<email>;<url>;<tags>;<any one can modify>` send as a series of semicolon separated **base64 encoded** strings.
+The separator symbol is the semicolon ` ; `. Each parameter is base64-encoded separately.
 
 *Some limitations*:
 
@@ -56,14 +56,8 @@ Updating an existing Item is done through URL:
 <url to teampass>/api/index.php/update/item/<item_id>/<label>;<password>;<description>;<folder_id>;<login>;<email>;<url>;<tags>;<any one can modify>?apikey=<valid api key>
 ```
 
-With `<label>;<password>;<description>;<folder_id>;<login>;<email>;<url>;<tags>;<any one can modify>` send as a **base64 encoding** string.
-The separator symbol is the semicolon ` ; `.
-
-Example:
-```yaml
-<url to teampass>/api/index.php/update/item/2/TW90b3JvbGEuY29tO01vdG9yb2xhLmNvbTtNb3Rvcm9sYSBjdXN0b21lciBwb3J0YWw7MjtKZWFuLVBhdWw7anAubWF1cmljZUBnbWFpbC5jb207aHR0cHM6Ly93d3cubW90b3JvbGEuY29tO3Rlc3QgbW90b3JvbGEgcG9ydGFsIGN1c3RvbWVyOzA?apikey=eevu1Aed0aiN4Phee9xaeshu2athool3iek2ahy
-```
-where the base64 encoded string is made of `Motorola.com;Motorola.com;Motorola customer portal;2;Jean-Paul;jp.maurice@gmail.com;https://www.motorola.com;test motorola portal customer;0`.
+With `<label>;<password>;<description>;<folder id>;<login>;<email>;<url>;<tags>;<any one can modify>` send as a series of semicolon separated **base64 encoded** strings.
+The separator symbol is the semicolon ` ; `. Each parameter is base64-encoded separately.
 
 # Delete an Item
 
@@ -128,3 +122,53 @@ Deleting a Folder is done through URL:
 The separator symbol is the semicolon ` ; `.
 
 The response body will contain `OK` if the request is successful. If the request is unsuccessful, the response body will contain an error message.
+
+# Add new file attachment
+
+Adding a new file is done by sending a POST request through URL:
+
+```yaml
+<url to teampass>/api/index.php/add/file?apikey=<valid api key>
+```
+
+Notes:
+* The request format must be according to RFC 2388
+* The Content-Type header value must be 'multipart/form-data'
+
+You must send two data fields in the POST body:
+* `item_id` : The item id to which the file will be attached
+* `file`    : The file data. Use parameter 'filename' to set the file name for the attachment
+
+```yaml
+Example: curl -X POST "http://127.0.0.1/teampass/api/index.php/add/file?apikey=chahthait5Aidood6johh6Avufieb6ohpaixain" -F "file=@text.txt;filename=text.txt" -F "item_id=9"
+```
+
+```yaml
+POST /teampass/api/index.php/add/file/1?apikey=chahthait5Aidood6johh6Avufieb6ohpaixain HTTP/1.1
+Host: 127.0.0.1
+Content-Type: multipart/form-data; boundary="boundary"
+
+--boundary
+Content-Disposition: form-data; name="item_id"
+
+9
+--boundary
+Content-Disposition: form-data; name="file"; filename="text.txt"
+Content-Type: text/plain
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+est laborum
+```
+
+The response body looks like this:
+
+```yaml
+{
+	"status" : "success"
+}
+```
