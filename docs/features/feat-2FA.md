@@ -5,6 +5,8 @@ In order to access Teampass Items, a User has to be allowed to get connected. A 
 
 The `Password` is encrypted in the database using Crypt feature which generates a hashed string using the standard Unix DES-based algorithm. The `Salt` used to generate this hash is obtained randomly with `openssl_random_pseudo_bytes` function.
 
+![Screenshot](../img/feat-u2f-10.png)
+
 It can be secured through usage of dedicated options defined here below.
 
 # Normal access
