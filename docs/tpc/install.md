@@ -12,8 +12,20 @@ For Firefox users:
 
 TeampassConnect needs:
 
+- API usage must be enabled by Administrator
 - a valid license usage
-- the credentials of a valid User in Teampass server with a valid Teampass API key
+- valid Teampass user credentials
+- a valid Teampass API key
+
+### How to get your API key?
+
+- Connect to Teampass with your account
+- Open the Profile page
+- Copy the API key
+
+![Screenshot](../img/tpc-settings-api-key.png)
+
+### Settings definition
 
 To setup TeampassConnect:
 
@@ -38,4 +50,3 @@ For this step use your Teampass user credentials and fill in the the form with e
 ![Screenshot](../img/tpc-settings-user.png)
 
 > All fields are mandatory except `Personal Saltkey`
-
