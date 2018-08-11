@@ -29,7 +29,7 @@ Google Two-Factor Authentication enhances login security. When logging in, a QR 
 
 DUOSecurity is a two-factor authentication tool securing any kind of tool requiring a user authentication. It protects every account with ease.
 
-For complete description, you should refer to [DUOSecurity.com](DUOSecurity.com) website.
+For complete description, you should refer to [DUOSecurity.com](https://DUOSecurity.com) website.
 
 ## How does it work with Teampass?
 
