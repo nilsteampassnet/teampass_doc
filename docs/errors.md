@@ -62,12 +62,14 @@ Increase the `session.gc_maxlifetime` config value inside `php.ini` file.
 
 The sympthom is that when a user is asking for a 2FA synchronization, the QR code is not displayed. 
 
-![]({{site.baseurl}}/https://user-images.githubusercontent.com/32137401/35566860-3518c7e2-05c3-11e8-810e-a6e3534e4e29.png)
+![](https://user-images.githubusercontent.com/32137401/35566860-3518c7e2-05c3-11e8-810e-a6e3534e4e29.png)
 
 The reason is that your firewall is blocking Google addresses.
 
 **Solution:**
 
 Allow in the firewall direct connectivity to 2 destinations:
+
 - chart.googleapis.com on port 443 
 - googleapis.l.google.com on port 443 
+
