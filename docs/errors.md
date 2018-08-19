@@ -68,8 +68,8 @@ The reason is that your firewall is blocking Google addresses.
 
 **Solution:**
 
-Allow in the firewall direct connectivity to 2 destinations:
+Allow in the firewall direct connectivity to 2 next destinations:
 
-- chart.googleapis.com on port 443 
-- googleapis.l.google.com on port 443 
+- **chart.googleapis.com** on port **443** 
+- **googleapis.l.google.com** on port **443** 
 
