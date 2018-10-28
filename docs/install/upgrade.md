@@ -60,7 +60,7 @@ The next chapters will provide some tips in order to upgrade since version 2.1.2
 
 - Run SQL query: ```ALTER TABLE `teampass_misc` ADD `id` INT(12) NOT NULL AUTO_INCREMENT FIRST, ADD PRIMARY KEY (`id`);```
 - Rename the file `/install/upgrade_ajax.php` by `/install/upgrade_ajax_original.php`
-- Get the file `[upgrade_ajax_for_2.1.23.4.php](https://github.com/nilsteampassnet/nilsteampassnet.github.io/blob/master/utils/upgrade_ajax_for_2.1.23.4.php)`, store it in folder `/install` and rename it `/install/upgrade_ajax.php`
+- Get the file [upgrade_ajax_for_2.1.23.4.php](https://github.com/nilsteampassnet/nilsteampassnet.github.io/blob/master/utils/upgrade_ajax_for_2.1.23.4.php), store it in folder `/install` and rename it `/install/upgrade_ajax.php`
 - Perform upgrade
 - Check that everything works as expected (think to clear your browser cache)
 
