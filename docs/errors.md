@@ -71,5 +71,22 @@ The reason is that your firewall is blocking Google addresses.
 Allow in the firewall direct connectivity to 2 next destinations:
 
 - **chart.googleapis.com** on port **443** 
-- **googleapis.l.google.com** on port **443** 
+- **googleapis.l.google.com** on port **443**
 
+## Error during upgrade - PHP Fatal error: Uncaught Defuse\Crypto\Exception\BadFormatException
+
+During upgrade, the next error is shown
+
+```
+NOTICE: PHP message: PHP Fatal error: Uncaught Defuse\Crypto\Exception\BadFormatException: Encoding::hexToBin() input is not a hex string.
+```
+
+**Solution:**
+
+This is mostly due to the fact that you have copied the key from file `teampass-seckey.txt` into a new file on another server.
+
+Such practice introduces new non HEX characters into the new file which makes the key to be invalid.
+
+![]({{site.baseurl}}/https://user-images.githubusercontent.com/5549939/50995503-8ae5db80-151f-11e9-9e8c-46bdbc8537be.png)
+
+As a conclusion, you should not copy the key but copy the file. If you cannot then ensure to remove the HEX `0A` at the end of file.
