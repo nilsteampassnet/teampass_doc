@@ -114,6 +114,13 @@ sudo chmod 0777 install/ includes/ includes/config/ includes/avatars/ includes/l
 
 # Finish the TeamPass installation
 
+Once installation is done, enter the next commands to put back the limited rights on the folders
+
+```
+chmod -R 750 /var/www/teampass
+chown -R apache:apache /var/www/teampass
+```
+
 Using your Browser, go to `https://localhost/teampass` or your specific domain, and follow the proposed steps.
 
 Once installation is finished, you can use TeamPass on your GNU/Linux server.
