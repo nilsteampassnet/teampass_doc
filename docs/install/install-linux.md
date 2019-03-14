@@ -117,9 +117,7 @@ sudo chmod 0777 install/ includes/ includes/config/ includes/avatars/ includes/l
 Once installation is done, enter the next commands to put back the limited rights on the folders
 
 ```
-chmod -R 0750 teampass/includes/config
-chmod -R 0750 teampass/includes/libraries/csrfp/libs
-chmod -R 0777 teampass/includes/libraries/csrfp/js
+chmod -R 0750 teampass
 chown -R apache:apache teampass
 ```
 
