@@ -88,38 +88,25 @@ Now it's time to set some privileges to this user.
 
 Note:
 
-* On CentOS systems, the default folder is `/var/html/www`
-* On Debian systems, the default folder is `var/www/html`
+* On CentOS systems, the default directory to use with apache is `/var/html/www`
+* On Debian systems, the default directory to use with apache is `/var/www/html`
 
 # Set folders permissions
 
 * Open your terminal
-* Point to htdocs folder `cd /opt/lampp/htdocs)` - see the note above about distribution-specific folders
-* Enter the following commands
+* Enter the following commands to set correct permissions for directories and also files, where 
+/path/to/your/install/ is the appropriate apache web directory mentioned above.
+
 ```
-chmod -R 0777 teampass/includes/config
-chmod -R 0777 teampass/includes/avatars
-chmod -R 0777 teampass/includes/libraries/csrfp/libs
-chmod -R 0777 teampass/includes/libraries/csrfp/log
-chmod -R 0777 teampass/includes/libraries/csrfp/js
-chmod -R 0777 teampass/backups
-chmod -R 0777 teampass/files
-chmod -R 0777 teampass/install
-chmod -R 0777 teampass/upload
-```
-You may also use directly
-```
-sudo chmod 0777 install/ includes/ includes/config/ includes/avatars/ includes/libraries/csrfp/libs/ includes/libraries/csrfp/js/ includes/libraries/csrfp/log/ files/ upload/
+sudo find /path/to/your/install/ -type d -exec chmod 750 {} \;
+
+sudo find /path/to/your/install/ -type f -exec chmod 640 {} \;
+
+sudo chown -R apache:apache /path/to/your/install   # centos
+sudo chown -R www-data:www-data /path/to/your/install # debian
 ```
 
 # Finish the TeamPass installation
-
-Once installation is done, enter the next commands to put back the limited rights on the folders
-
-```
-chmod -R 0750 teampass
-chown -R apache:apache teampass
-```
 
 Using your Browser, go to `https://localhost/teampass` or your specific domain, and follow the proposed steps.
 
