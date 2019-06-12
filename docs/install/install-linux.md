@@ -89,7 +89,7 @@ Now it's time to set some privileges to this user.
 Note:
 
 * On CentOS systems, the default folder is `/var/html/www`
-* On Debian systems, the default folder is `var/www/html`
+* On Debian systems, the default folder is `/var/www/html`
 
 # Set folders permissions
 
