@@ -8,6 +8,7 @@ This document highlights a basic setup, but you can refer to many other existing
 
 In addition to the Apache web server, the following PHP extensions are required by Teampass:
 
+* `mysqli`
 * `mcrypt`
 * `mbstring`
 * `openssl`
