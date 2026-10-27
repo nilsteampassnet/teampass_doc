@@ -1,3 +1,6 @@
+> **This documentation describes Teampass 2.1.x and is no longer maintained.**
+> For current versions, see https://documentation.teampass.net
+
 # Teampass Documentation
 
 Welcome to the Documentation for the usage of [Teampass](http://teampass.net).
